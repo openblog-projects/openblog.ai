@@ -3,7 +3,7 @@ layout: page
 title: Contibutors
 permalink: /about/
 ---
-**Max Hager** \	
+**Max Hager**\
 Studying computer science and is fascinated about future things like immortality and singularity. 
 
 **Kevin Kessel**\
