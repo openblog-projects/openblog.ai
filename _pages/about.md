@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About Me
+title: Contibutors
 permalink: /about/
 ---
+**Max Hager** \	
+Studying computer science and is fascinated about future things like immortality and singularity. 
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+**Kevin Kessel**\
+IT student with focus on politics & social change through AI. 
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+**Lars Mundin**\
+Engineering student with love for rockets, AI and any tech that pushes humankind forward.
