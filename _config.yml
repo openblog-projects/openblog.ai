@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: openblog
-description: An blog about machine learning
+title: openblog1
+description: An blog about machine learning2
 github_username: openblog-projects
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "openblog.ai"
@@ -41,6 +41,8 @@ minima:
   social_links:
    # twitter: fastdotai
     github: openblog-projects
+    youtube: https://www.youtube.com/channel/UCXL-3U0prjYtddFKKOpUA7Q
+    discord: https://discord.gg/8BvMqVMa
 
 # Set this to true to get LaTeX math equation support
 use_math: 
@@ -76,13 +78,15 @@ default_badges:
   colab: false
   deepnote: false
 
+
 # Escape HTML in post descriptions
 html_escape:
   description: false
 
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
-theme: minima
+# Eigenes theme nutzen,dadurch keine updates
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
