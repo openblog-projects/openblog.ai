@@ -44,6 +44,10 @@ minima:
     youtube: https://www.youtube.com/channel/UCXL-3U0prjYtddFKKOpUA7Q
     discord: https://discord.gg/8BvMqVMa
 
+
+
+title-logo: /images/openblog_logo_transparent.png
+
 # Set this to true to get LaTeX math equation support
 use_math: 
 
