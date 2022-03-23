@@ -5,6 +5,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        <!--
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon orange">
@@ -12,6 +13,7 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
+        -->
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
@@ -30,6 +32,7 @@
 
     <div class="social-links">
       {%- include social.html -%}
+      <img src="{{site.title-logo | relative_url  }}" alt="{{site.title | escape }}" width="25px" height="30px"></img>
     </div>
 
   </div>

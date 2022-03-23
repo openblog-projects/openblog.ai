@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: openblog
-description: An blog about machine learning
+description: A blog about AI
 github_username: openblog-projects
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "openblog.ai"
@@ -45,7 +45,9 @@ minima:
     discord: https://discord.gg/8BvMqVMa
 
 
-
+site:
+  author:
+    email: openblog.ai@gmail.com
 title-logo: /images/openblog_logo_transparent.png
 
 # Set this to true to get LaTeX math equation support
