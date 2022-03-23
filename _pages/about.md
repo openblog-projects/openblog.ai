@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Contibutors
+layout: new_page
+title: Contributors
 permalink: /about/
 ---
 **Max Hager**\
