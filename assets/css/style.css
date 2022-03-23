@@ -385,7 +385,7 @@ h1:hover .anchor-link, h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .a
 
 .search-results-list-item { padding-bottom: 1rem; }
 
-.search-results-list-item .search-result-title { font-size: 16px; color: #d9230f; }
+.search-results-list-item .search-result-title { font-size: 16px; color: white; }
 
 .search-result-rel-url { color: yellow; }
 
@@ -399,7 +399,7 @@ h1:hover .anchor-link, h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .a
 
 .search-result-preview { color: #777; font-size: 16px; margin-top: .02rem !important; margin-bottom: .02rem !important; }
 
-.search-result-highlight { color: red; font-weight: bold; }
+.search-result-highlight { color: black; font-weight: bold; }
 
 table { white-space: normal; max-width: 100%; font-size: 100%; border: none; }
 
@@ -426,6 +426,10 @@ pre code { font-size: 15px !important; }
 .youtube-iframe-wrapper { position: relative; padding-bottom: 56.10%; height: 0; overflow: hidden; }
 
 .youtube-iframe-wrapper iframe, .youtube-iframe-wrapper object, .youtube-iframe-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.new_socialmedia { text-align: center; }
+
+.footer_description { text-align: center; }
 
 * { font-family: "Roboto Light"; background-color: #4a525a; color: #FFFFFF; }
 
