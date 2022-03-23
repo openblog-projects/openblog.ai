@@ -177,7 +177,7 @@ h6:hover .anchor-link {
 .search-results-list-item {padding-bottom: 1rem;}
 .search-results-list-item .search-result-title {
   font-size: 16px;
-  color: #d9230f;
+  color: white;
 }
 .search-result-rel-url {color: yellow;}
 .search-results-list-item a {display: block; color: yellow;}
@@ -200,7 +200,7 @@ h6:hover .anchor-link {
 }
 .search-result-highlight {
   //übereinstimmenden Begriff in Suche hervorheben
-  color: red;
+  color: black;
  // color: #2e0137;
   font-weight:bold;
 }
@@ -286,6 +286,15 @@ pre code {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+.new_socialmedia{
+  //margin: 0 auto;
+  text-align:center;
+}
+.footer_description{
+  text-align:center;
 }
 
 *{
