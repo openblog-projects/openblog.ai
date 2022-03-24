@@ -431,11 +431,76 @@ pre code { font-size: 15px !important; }
 
 .footer_description { text-align: center; }
 
-* { font-family: "Roboto Light"; background-color: #4a525a; color: #FFFFFF; }
+* { font-family: "Roboto Light"; background-color: #4a525a; color: white; }
 
 a { color: white !important; }
 
-a:visited { color: red !important; }
+/** Tables */
+table { margin-bottom: 30px; width: 100%; text-align: left; color: red !important; border-collapse: collapse; border: 1px solid white !important; }
+
+table tr:nth-child(even) { background-color: black !important; }
+
+table th, table td { padding: 10px 15px; }
+
+table th { background-color: #969696 !important; border: 1px solid white !important; color: white !important; }
+
+table td { border: 1px solid white !important; background-color: #969696 !important; }
+
+@media screen and (max-width: 1000px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }
+
+code, pre { background-color: #969696 !important; }
+
+.language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
+
+[class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
+
+.language-python + .language-plaintext code { background-color: #323443 !important; }
+
+.language-python + .language-plaintext pre { background-color: #323443 !important; }
+
+.input_area pre, .input_area div { margin-bottom: 1.0rem !important; margin-top: 1.5rem !important; padding-bottom: 0 !important; padding-top: 0 !important; background: #323443 !important; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace; border-radius: 5px; font-size: 105%; }
+
+.output_area pre, .output_area div { margin-bottom: 1rem !important; margin-top: 0rem !important; padding-bottom: 0 !important; padding-top: 0 !important; }
+
+.input_area pre { border-left: 1px solid white !important; }
+
+.output_area pre { border-left: 1px solid grey; margin-left: 1rem !important; font-size: 16px; }
+
+.code_cell table { width: auto; }
+
+.highlight { background: #323443 !important; color: #f8f8f2 !important; }
+
+.highlight pre, .highlight code { background: #323443; color: #f8f8f2; font-size: 110%; }
+
+.highlight .hll, .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: white; background-color: #323443; }
+
+.highlight .go { color: #44475a; }
+
+.highlight .err, .highlight .g, .highlight .l, .highlight .n, .highlight .x, .highlight .ge, .highlight .gr, .highlight .gh, .highlight .gi, .highlight .gp, .highlight .gs, .highlight .gu, .highlight .gt, .highlight .ld, .highlight .no, .highlight .nd, .highlight .pi, .highlight .ni, .highlight .ne, .highlight .nn, .highlight .nx, .highlight .py, .highlight .w, .highlight .bp { color: #f8f8f2; background-color: #323443 !important; }
+
+.highlight .p { font-weight: bold; color: white; background-color: #323443; }
+
+.highlight .ge { text-decoration: underline; }
+
+.highlight .bp { font-style: italic; }
+
+.highlight .c, .highlight .ch, .highlight .cm, .highlight .cpf, .highlight .cs { color: #6272a4; }
+
+.highlight .c1 { color: white; font-style: italic; background-color: #323443; }
+
+.highlight .kd, .highlight .kt, .highlight .nb, .highlight .nl, .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm { color: white; background-color: #323443; }
+
+.highlight .kd, .highlight .nb, .highlight .nl, .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm { font-style: italic; }
+
+.highlight .fm, .highlight .na, .highlight .nc, .highlight .nf { color: white; }
+
+.highlight .k, .highlight .o, .highlight .cp, .highlight .kc, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .nt, .highlight .ow { color: white; background-color: #323443; }
+
+.highlight .kc { color: white; }
+
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: white; background-color: #323443; }
+
+.highlight .gd { color: white; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
