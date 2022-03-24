@@ -1,4 +1,4 @@
-//Default Overrides For Styles In Minima 
+//Default Overrides For Styles In Minima
 // If you wish to override any of this CSS, do so in _sass/minima/custom-styles.css
 
 .post img {
@@ -44,28 +44,28 @@ h1 {
 }
 
 h2 {
-    margin-top:2rem !important;      
+    margin-top:2rem !important;
 }
 
 h3, h4 {
-    margin-top:1.5rem !important;      
+    margin-top:1.5rem !important;
 }
 
 p {
-    margin-top:1rem !important; 
-    margin-bottom:1rem !important;   
+    margin-top:1rem !important;
+    margin-bottom:1rem !important;
 }
 
 h1, h2, h3, h4 {
     font-weight: normal !important;
-    margin-bottom:0.5rem !important;  
+    margin-bottom:0.5rem !important;
     code {
       font-size: 100%;
     }
 }
 
 pre {
-    margin-bottom:1.5rem !important; 
+    margin-bottom:1.5rem !important;
 }
 
 // make sure the post title doesn't have too much spacing
@@ -106,7 +106,7 @@ details.description:not([open]) summary::after {
   font-size: 12px !important;
   p, li{
     font-size: 12px !important;
- } 
+ }
 }
 
 // Adjust with of social media icons were getting cut off
@@ -300,12 +300,293 @@ pre code {
 *{
   font-family: "Roboto Light";
   background-color: #4a525a;
-  color: #FFFFFF;
+  color: white;
 }
 a{
   color: white !important;
 }
-a:visited{
-  color: red !important;
+
+/**
+ * Tables
+ */
+$table-text-align: left;
+$table-text-color:      red !important;
+$table-zebra-color:     black !important;
+//oberste Zeile
+$table-header-bg-color: #969696 !important;
+//Rand oben
+$table-header-border:   white !important;
+//Rand unten
+$table-border-color:    white !important;
+
+table {
+  margin-bottom: $spacing-unit;
+  width: 100%;
+  text-align: $table-text-align;
+  color: $table-text-color;
+  border-collapse: collapse;
+  border: 1px solid $table-border-color;
+
+  tr {
+    &:nth-child(even) {
+      background-color: $table-zebra-color;
+    }
+  }
+
+  th, td {
+    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+  }
+
+  th {
+    background-color: $table-header-bg-color;
+    border: 1px solid $table-header-border;
+    color: white !important;
+  }
+
+  td {
+    border: 1px solid $table-border-color;
+    background-color: $table-header-bg-color;
+  }
+
+  @include media-query($on-laptop) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
+
+//Kommentare
+code,
+pre{
+  background-color: $table-header-bg-color;
+
+}
+
+// Code etc
+
+$dt-gray-dark: #282a36;  // Background
+$dt-code-cell-background: #323443;
+$dt-gray: #44475a;       // Current Line & Selection
+$dt-gray-light: #f8f8f2; // Foreground
+$dt-blue: #6272a4;       // Comment
+$dt-cyan: #8be9fd;
+$dt-green: #50fa7b;
+$dt-orange: #ffb86c;
+$dt-pink: #ff79c6;
+$dt-purple: #bd93f9;
+$dt-red: #ff5555;
+$dt-yellow: #f1fa8c;
+$dt-green-light: rgb(172, 229, 145);
+
+.language-python + .language-plaintext {
+    border-left: 1px solid grey;
+    margin-left: 1rem !important;
+}
+
+// ensure dark background for code in markdown
+[class^="language-"]:not(.language-plaintext) pre,
+[class^="language-"]:not(.language-plaintext) code {
+    background-color: $dt-code-cell-background !important;
+    color: $dt-gray-light;
+}
+
+.language-python + .language-plaintext code { background-color: $dt-code-cell-background !important; }
+.language-python + .language-plaintext pre  { background-color: $dt-code-cell-background !important; }
+
+// for Jupyter Notebook HTML Code Cells modified from https://www.fast.ai/public/css/hyde.css
+
+.input_area pre, .input_area div {
+    margin-bottom:1.0rem !important;
+    margin-top:1.5rem !important;
+    padding-bottom:0 !important;
+    padding-top:0 !important;
+    background: #323443 !important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
+    border-radius: 5px;
+    font-size: 105%;
+}
+.output_area pre, .output_area div {
+    margin-bottom:1rem !important;
+    margin-top:0rem !important;
+    padding-bottom:0 !important;
+    padding-top:0 !important;
+}
+.input_area pre {
+  //border-left: 1px solid lightcoral;
+  //linke Umrandung
+    border-left: 1px solid white !important;
+}
+.output_area pre {
+    border-left: 1px solid grey;
+    margin-left: 1rem !important;
+    font-size: 16px;
+}
+
+.code_cell table { width: auto; }
+
+
+.highlight {
+    background: $dt-code-cell-background !important;
+    color: $dt-gray-light !important;
+    pre, code {
+     background: $dt-code-cell-background;
+     color: $dt-gray-light;
+     font-size: 110%;
+    }
+
+    .hll,
+    .s,
+    .sa,
+    .sb,
+    .sc,
+    .dl,
+    .sd,
+    .s2,
+    .se,
+    .sh,
+    .si,
+    .sx,
+    .sr,
+    .s1,
+    .ss {
+         //color:rgb(231, 153, 122);
+      color: white;
+      background-color: $dt-code-cell-background;
+    }
+
+    .go {
+      color: $dt-gray;
+    }
+
+    .err,
+    .g,
+    .l,
+    .n,
+    .x,
+    .ge,
+    .gr,
+    .gh,
+    .gi,
+    .gp,
+    .gs,
+    .gu,
+    .gt,
+    .ld,
+    .no,
+    .nd,
+    .pi,
+    .ni,
+    .ne,
+    .nn,
+    .nx,
+    .py,
+    .w,
+    .bp {
+      color: $dt-gray-light;
+      background-color: $dt-code-cell-background !important;
+    }
+
+    .p {
+         font-weight: bold;
+         //color: rgb(102, 217, 239);
+      color: white;
+      background-color: $dt-code-cell-background;
+ }
+
+    .ge {
+      text-decoration: underline;
+    }
+
+    .bp {
+      font-style: italic;
+    }
+
+    .c,
+    .ch,
+    .cm,
+    .cpf,
+    .cs {
+      color: $dt-blue;
+    }
+
+    .c1 {
+     // color: gray;
+      color: white;
+      font-style: italic;
+      background-color: $dt-code-cell-background;
+    }
+
+    .kd,
+    .kt,
+    .nb,
+    .nl,
+    .nv,
+    .vc,
+    .vg,
+    .vi,
+    .vm {
+      // color: $dt-cyan;
+      color: white;
+      background-color: $dt-code-cell-background;
+    }
+
+    .kd,
+    .nb,
+    .nl,
+    .nv,
+    .vc,
+    .vg,
+    .vi,
+    .vm {
+      font-style: italic;
+    }
+
+    .fm,
+    .na,
+    .nc,
+    .nf
+     {
+      //color: $dt-green-light;
+      color: white;
+    }
+//import/as/=; k=as kn=import
+    .k,
+    .o,
+    .cp,
+    .kc,
+    .kn,
+    .kp,
+    .kr,
+    .nt,
+    .ow {
+      //color: #00CC00;
+      color: white;
+      background-color: $dt-code-cell-background;
+    }
+
+    .kc {
+         //color: $dt-green-light;
+      color: white;
+    }
+
+    .m,
+    .mb,
+    .mf,
+    .mh,
+    .mi,
+    .mo,
+    .il {
+     // color: $dt-purple;
+      color: white;
+      background-color: $dt-code-cell-background;
+    }
+
+    .gd {
+     // color: $dt-red;
+      color: white;
+    }
 }
 
