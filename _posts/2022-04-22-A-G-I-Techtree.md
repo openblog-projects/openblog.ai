@@ -1,0 +1,870 @@
+---
+title: "AGI Techtree"
+description: "A mindmap to universal learning machine."
+layout: post
+toc: false
+comments: true
+image: images/some_folder/your_image.png
+hide: false
+search_exclude: true
+categories: [fastpages, jupyter]
+metadata_key1: metadata_value1
+metadata_key2: metadata_value2
+---
+
+## Methods
+### Reinforcement learning
+- **Description**
+    - Concerned with how intelligent agents ought to take actions in an environment  in order to maximize the notion of cumulative reward.
+- **History**
+    - 1911 - Thorndike defined trial and error as the "Law of Effect" with feeling of from a given situation
+    - 1954 - Minsky postulated use SNARCs (Stochastic Neural-Analogue Reinforcement Calculators)
+    - 1961 - Minsky addressed "Credit Assignment Problem"
+    - 1955 - Research in computational trial and error information to update connection weights
+    - 1960 - 1962 - Adapted to supervised learning by using error information to update connection weights
+    - 1963 - STELLA system 
+    - 1977 - Learning from a teacher
+    - 1992 - Implementation in board games
+    - 2010s - Implementation in computer games
+- **Companies**
+    - [SoftBank Robotics | Humanoid and programmable robots](https://www.softbankrobotics.com/emea/en)
+    - [Boston Dynamics | Changing Your Idea of What Robots Can Do](https://www.bostondynamics.com/)
+    - [Lab Automation - Automata Labs - Automata](https://automata.tech/products/automata-labs/?utm_source=adwords&utm_term=external%20robotics&utm_campaign=AWW+%7C+Lab+Automation+%7C+Generic&utm_medium=ppc&hsa_mt=b&hsa_ad=567495087599&hsa_net=adwords&hsa_src=g&hsa_kw=external%20robotics&hsa_tgt=kwd-1588379704061&hsa_cam=15495004460&hsa_acc=4064841676&hsa_ver=3&hsa_grp=129405605894&gclid=CjwKCAjwrqqSBhBbEiwAlQeqGgXeNpEd-mhpVUqDb-nImU9XiQicX-qFrvuh7QBS7fcmaS5z_ztoARoC5LgQAvD_BwE)
+    - [ABB Robotics](https://webshop.robotics.abb.com/us/)
+    - [KUKA SmartProduction | KUKA AG](https://www.kuka.com/en-us/future-production/industrie-4-0/industrie-4-0-smartproduction?sc_camp=B0AD2317B83C486B8944E1432344D0F2) 
+- **Labs**
+    - [Reinforcement Learning (Lab)](http://gureckislab.org/courses/fall19/labincp/labs/lab-rl-pt1.html)
+    - [        RLAI    ](http://rlai.ualberta.ca/)
+    - [UCSD Advanced Robotics and Controls Lab](https://www.ucsdarclab.com/)
+    - [rlrl.net.technion.ac.il/](https://rlrl.net.technion.ac.il/)
+    - [Reinforcement learning - Leiden University](https://www.universiteitleiden.nl/en/science/computer-science/artificial-intelligence--machine-learning/reinforcement-learning-lab) 
+- **People**
+    - [Home - David Silver](https://www.davidsilver.uk/)
+    - [Littmania](https://www.littmania.com/) 
+    - [Vlad Mnih](https://www.cs.toronto.edu/~vmnih/)
+    - [Robert Babuska – Robert Babuska's professional website](http://www.robertbabuska.com/)
+    - [John Schulman's Homepage](http://joschu.net/) 
+- **Ways for getting involved**
+    - Implement reinforcement learning in your favorite game
+    - [Einführung in AWS DeepRacer](https://aws.amazon.com/de/about-aws/whats-new/2018/11/introducing-aws-deepracer/) , Learn reinforcement learning with an physical car 
+    - [16 Reinforcement Learning Environments and Platforms You Did Not Know Exist - MLK - Machine Learning Knowledge](https://machinelearningknowledge.ai/reinforcement-learning-environments-platforms-you-did-not-know-exist/)  , Try reinforcement learning in one of this environments
+    - [Teaching - David Silver](https://www.davidsilver.uk/teaching/), Take the course from David Silver 
+    - [Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series): Sutton, Richard S., Barto, Andrew G.: 9780262039246: Amazon.com: Books](https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/ref=asc_df_0262039249/?tag=hyprod-20&linkCode=df0&hvadid=312280575053&hvpos=&hvnetw=g&hvrand=2351796173929465573&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1013581&hvtargid=pla-458692329113&psc=1), Read 
+    - [RF Challenge | RF Challenge - AI Accelerator](https://rfchallenge.mit.edu/), Join competitions 
+### Deep learning
+- **Description**
+    - Class of machine learning algorithms which uses multiple layers to progressively extract higher-level features from the raw input. 
+- **History**
+    - 1962 - In the book "Principles of Neurodynamics: Perceptrons and the Theory of Brain Mechanisms" Frank Rosenblatt described all basics of deep learning from today.
+    - 1967 - Alexey Ivakhnenko and Lapa published first learning algorithm for deep learning
+    - 1971 - Paper describes deep network with eight layers 
+    - 1980 - Kunihiko Fukushima introduced new deep learning architectures
+    - 1986 - Term Depp Learning was introduced
+    - 1989 - Yann LeCun applied backpropagation to a deep neural network
+    - 1997 - Schmidhuber and Hochreiter came up with LSTMs
+    - 1998 - Success in speaker recognition
+    - 2009 - Nvidia trained neural networks with GPUs and they called it the big bang of deep learning
+    - 2011 - Superhuman performance in visual 
+    - 2012 - Deep learning system wins ImageNet competition. "deep learning revolution"
+- **Companies**
+    - [Deep Instinct | Deep Learning AI Cybersecurity Platform](https://www.deepinstinct.com/)
+    - [Glean | Work assistant & knowledge management platform](https://www.glean.com/)
+    - [Welcome to NeuralWare](https://www.neuralware.com/)
+    - [Wireless Technology & Innovation | Mobile Technology | Qualcomm](https://www.qualcomm.com/)
+    - [PathAI | Pathology Transformed](https://www.pathai.com/) 
+- **Labs**
+    - [Machine Learning at MIT](http://machinelearning.mit.edu/)
+    - [Melbourne Deep Learning Group](http://mdlg.ai/)
+    - [UofT Machine Learning](http://learning.cs.toronto.edu/)
+    - [Deep learning](https://research.cs.aalto.fi/bayes/)
+    - [Machine Learning at Cornell](https://machinelearning.cis.cornell.edu/)x 
+- **People**
+    - [Vikas Verma ](http://vikasverma1077.github.io/)
+    - [David Duvenaud](http://www.cs.toronto.edu/~duvenaud/)
+    - [Sanja Fidler](http://www.cs.utoronto.ca/~fidler/) 
+    - [twitter.com/hochreitersepp?lang=en](https://twitter.com/hochreitersepp?lang=en)
+    - [people.idsia.ch/~juergen/](https://people.idsia.ch/~juergen/) 
+- **Ways for getting involved**
+    - [WELCOME TO The Deep Learning Group - WE LOVE DEEP LEARNING](http://www.svdlg.com/), Join a group 
+    - [Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville - Google Books](https://books.google.com/books?id=Np9SDQAAQBAJ&printsec=frontcover&dq=deep+learning&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwigrPaM4P32AhWjoFsKHSO7CbgQ6AF6BAgCEAI#v=onepage&q=deep%20learning&f=false) & [Deep Learning - John D. Kelleher - Google Books](https://books.google.com/books?id=b06qDwAAQBAJ&printsec=frontcover&dq=deep+learning&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwigrPaM4P32AhWjoFsKHSO7CbgQ6AF6BAgDEAI#v=onepage&q=deep%20learning&f=false)m, Read
+    - [20+ Active machine learning and data science communities | Coder One](https://www.gocoder.one/blog/active-machine-learning-communities), Join a community
+    - [10 Best Deep Learning Projects](https://hackr.io/blog/best-deep-learning-projects), Start with an project 
+- **Comments**
+    - [    Awesome Deep Learning Resources  | Curated list of awesome lists | Project-Awesome.org](https://project-awesome.org/guillaume-chevalier/awesome-deep-learning-resources) 
+## Compute
+### Optical computing 
+- **Description**
+    - Uses light waves produced by lasers or incoherent sources for data processing, data storage or data communication for computing.
+- **History**
+    - 1978 - First electro hybrids
+    - 1994 - M Reck's universal optical processor 
+    - 2004 - Large scale integrated photonics becomes possible 
+    - 2012 - First programmable nanophotonic processor
+    - 2015 - Programmable nanophotonic processor preprint on arXiv 
+- **Companies**
+    - [Lightmatter - The photonic (super)computer company.](https://lightmatter.co/) 
+    - [Cognifiber – Photonic Computing – The Revolution of Information Technology](https://www.cognifiber.com/)
+    - [Optalysys](https://optalysys.com/) 
+    - [AI for all, everywhere. NLP Extreme scale AI usable through the Muse API](https://lighton.ai/)
+    - [Luminous](https://www.luminous.com/) 
+- **Labs**
+    - [Optics & Photonics Lab](https://optics.engin.umich.edu/) 
+    - [Quantum Photonics Laboratory | RLE at MIT](https://www.rle.mit.edu/qp/)
+    - [Lightwave Research Laboratory](https://lightwave.ee.columbia.edu/)
+    - [Home](https://ntt-research.com/)
+    - [Optics and Photonics | School of Electrical and Computer Engineering at the Georgia Institute of Technology](https://www.ece.gatech.edu/research/tigs/optics-and-photonics) 
+- **People**
+    - [YICHEN SHEN](https://www.shenyichen.org/)
+    - [List of AI photonics companies - Christopher Phenicie](https://cphenicie.github.io/list-of-AI-photonics-companies/) 
+    - [Volker J. Sorger | School of Engineering & Applied Science | The George Washington University](https://www.seas.gwu.edu/volker-j-sorger)
+    - [Guoqing MA | PhD Student | Bachelor of Engineering | Shanghai Institute of Optics and Fine Mechanics, CAS, Shanghai | Laboratory of Information Optics and Optoelectronic Technology, CAS](https://www.researchgate.net/profile/Guoqing-Ma-3)
+    - [Junjie YU | Ph.D | Shanghai Institute of Optics and Fine Mechanics, CAS, Shanghai | Lab of Information Optics and Optoelectronic Technology](https://www.researchgate.net/profile/Junjie-Yu-8) 
+- **Ways for getting involved**
+    - [Introduction of Optical Computing - GeeksforGeeks](https://www.geeksforgeeks.org/introduction-of-optical-computing/), Read intro in optical computing
+    - Join one of the companies
+    - [www.optica.org//en us/opticalcomputing/](https://www.optica.org//en-us/opticalcomputing/), Look for incubators (this one is old) 
+### Cloud computing  
+- **Description**
+    - On demand computing power without directive management of the computing source. Machine learning demands a lot of power which a single person with one computer is often not able to bring up.
+- **History**
+    - 1960 - Initial concepts of time sharing came up
+    - 1977 - Cloud symbol represents networks of computing equipment
+    - 1993 - Term cloud was used to refer to platforms for distributed computing
+- **Companies**
+    - [H2O AI Cloud | H2O.ai](https://h2o.ai/platform/ai-cloud/?aliasId=RPYGBr3CupEqjDZau)
+    - [Vast.ai](https://vast.ai/console/create/?aliasId=dscdk87aA9MmAgaFk)
+    - [GPU servers rental for deep learning | LeaderGPU](https://www.leadergpu.com/?aliasId=yuZYKCSgeK89QNujP)
+    - [About | Lambda](https://lambdalabs.com/about?aliasId=rkXkW7t4qSsvvBiNd)
+    - [Paperspace Console](https://console.paperspace.com/signup?R=ZKGRZB5?aliasId=qtzj9KR7XLtJ2iqK5)
+- **Labs**
+    - [Microsoft Cloud Computing Research Centre](http://www.mccrc.org/?aliasId=zLrSKF3osxJBXhnXN)
+    - [Welcome | NSF Cloud & Autonomic Computing Center (CAC)](https://nsfcac.org/?aliasId=YW3bNGjQM5Na32MCz)
+    - [About | Princeton Research Computing](https://researchcomputing.princeton.edu/about?aliasId=odswcWpgC4CKqHcRj)
+    - [Research Laboratories | College of Engineering and Computing](https://cec.georgiasouthern.edu/research-initiatives/research-labs/?aliasId=WRAbq3pcBtY6E9apY)
+    - [HPCC lab](http://hpcclab.org/?aliasId=BxyQPvbZjjkY3gmjG)
+- **People**
+    - [www.linkedin.com/in/dillonerb/](https://www.linkedin.com/in/dillonerb/?aliasId=mwqQjQHysfk4i8Lc4) Dillon Erb, CEO Paperspace
+    - [About | Enter the Singularity](https://entersingularity.wordpress.com/about/?aliasId=frvtguSwRENCmD3D3) Jakob Cannell, CEO Vast.ai
+    - [www.linkedin.com/in/sbalaban/](https://www.linkedin.com/in/sbalaban/?aliasId=ne22HEXXdAcExPWKN) Stephen Balaban, CEO Lambda
+    - [www.linkedin.com/in/srisatishambati/](https://www.linkedin.com/in/srisatishambati/?aliasId=hbsyvvnJAEtXXx76q) Sri Ambati, CEO H2O
+    - [www.linkedin.com/in/nicolaschaparro/?originalSubdomain=de](https://www.linkedin.com/in/nicolaschaparro/?originalSubdomain=de?aliasId=kaZWEXZ2xZMFMnrEa),Nicolas Chaparro, CEO Genesis Cloud
+    - [www.linkedin.com/in/vishnusubramanian/](https://www.linkedin.com/in/vishnusubramanian/?aliasId=AjXWYM8xFqRjzKPL3) Vishnu Subramanian, CEO Jarvislabs
+- **Ways for getting involved**
+    - [Careersl | Vast.ai](https://vast.ai/gesys_gpupro/?aliasId=zgtEfq2FCv6SeCtk5) is hiring CUDA/C++ programmers
+    - [Elite Cloud Engineer Program](https://qwasar.io/tech-talent-programs/devops-and-cloud-engineer-program/?aliasId=zAXYhcWwMgE8bhRkk) Cloud computing bootcamp
+    - [Vast.ai](https://vast.ai/console/host/setup/?aliasId=moJwb4KQmereqTvqm) host your computer GPU power
+### DNA computing
+- **Description**
+    - Information is represented and gets computed this way by using the genetic alphabet ACGT.  Is mostly used for memory storage.m
+- **History**
+    - 1994 - Leonard Adleman solved first algorithmic problem with DNA computing
+    - 1995 - Eric Baum proposes DNA computing as memory system
+- **Companies**
+    - CATALOG [CATALOG](https://www.catalogdna.com/?aliasId=ALREpkv89on7vBcvK)
+    - Evonetix [Home - Evonetix Synthesis Platform | Our mission |](https://www.evonetix.com/?aliasId=2GYHLjKg4DsLWadEb)
+    - Molecular Assemblies [Molecular Assemblies | The Future Is In Our DNA](https://molecularassemblies.com/?aliasId=bQuZXArxf2ESJji2C)
+    - TWIST Bioscience [Twist Bioscience | We lead innovation in DNA synthesis](https://www.twistbioscience.com/?utm_source=google&utm_medium=cpc&utm_campaign=PSR-GLBL-FY21-1808-MULTI-Branded&adgroup=114820227303&utm_term=twist%20bioscience&utm_content=kwd-549673824205&creative=494683539265&device=c&matchtype=e&location=9031951&gclid=CjwKCAjw_tWRBhAwEiwALxFPoRilTgDvjpMh7IphU1CBKR1BZyB-4wP35nYU9zWAo1C7CB5EibxPKhoCOdoQAvD_BwE?aliasId=9Yq2d6ob8sXyEwdmg)
+    - Helix Works [Helixworks Technologies, Ltd.](https://helix.works/?aliasId=RDmnA52ur3DCN9HrR)
+- **Labs**
+    - [The Qian Lab - Caltech - Home](http://qianlab.caltech.edu/index.html?aliasId=oKfcpKkP64jJuoDDj)
+    - Center for Open Innovation in Connected Health [DNA Computing: COPICOH](https://www.copicoh.uni-luebeck.de/en/research/projects/dna-computing.html?aliasId=AKfJwQSQ2wT9okhTP)
+    - Hilbert lab [Welcome to the Hilbert Lab - Hilbert Lab](http://hilbertlab.org/?aliasId=5Zt9nBcp8gWzPjYhT)
+    - Seelig lab [Home](https://www.seeliglab.org/?aliasId=mBBgE9DLwY7HQ32Wt)
+    - Max Planck Institute for Molecular Genetics [Home | Max Planck Institute for Molecular Genetics](https://www.molgen.mpg.de/2168/en?aliasId=eymMMDBatkSNvQorP)
+- **People**
+    - Thomas Hinze [PD Dr.-Ing. habil. Thomas Hinze](https://users.fmi.uni-jena.de/~hinze/index-en.html?aliasId=sNsrfwbugXgEFykK2)
+    - Lulu Qian [Lulu Qian     |     Biology and Biological Engineering](https://www.bbe.caltech.edu/people/lulu-qian?aliasId=oKi4RmBoSQ4HuMhSp)
+    - Kevin Cherry [www.linkedin.com/in/kevin cherry 55153135/](https://www.linkedin.com/in/kevin-cherry-55153135/?aliasId=PbwiuySSjcHdoxkPn)
+    - Leonard Adleman [Leonard Adleman – Department of Computer Science, Department of Molecular Biology](https://adleman.usc.edu/?aliasId=eu9P2ojyvZFK9Letc)
+    - Erik Winfree [www.dna.caltech.edu/~winfree/](https://www.dna.caltech.edu/~winfree/?aliasId=ic8dfba7sWuye32BJ)
+- **Ways for getting involved**
+    - DNA computing tutorial[www.youtube.com/watch?v=YBhWrHeIqDs](https://www.youtube.com/watch?v=YBhWrHeIqDs?aliasId=4JPh8veSb7WWGskD6)
+    - DNA computing library in development[GitHub - AkashGutha/D-Compute: Library to experiment with DNA Computing](https://github.com/AkashGutha/D-Compute?aliasId=qGA8zKAZaddpdxPRt)
+### GPU computing
+- **Description**
+    - General purpose computing on graphics processing units is the use of a graphics processing unit to perform computation in applications traditionally handled by the central processing unit. [General-purpose computing on graphics processing units - Wikipedia](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units?aliasId=GxFZmestWjLJWbHLo)
+- **History**
+    - 1987 - Conways Game of Life became first example of general purpose computing
+    - ~2001 -  More popularity through programmable shaders and floating point support on graphics processors
+    - 2005 - First common scientific program runs faster on GPU's
+- **Companies**
+    - NVIDIA [Artificial Intelligence Computing Leadership from NVIDIA](https://www.nvidia.com/en-us/?aliasId=pxeoQLauwvtmXmxru)
+    - AMD [www.amd.com/en](https://www.amd.com/en?aliasId=JE4wXkk6fmHhfyzMy)
+    - Intel [Intel | Data Center Solutions, IoT, and PC Innovation](https://www.intel.com/content/www/us/en/homepage.html?aliasId=6uoYWRJRT5eEwzYra)
+    - EVGA [www.evga.com/](https://www.evga.com/?aliasId=egMyQ5DdDwNmHraNW)
+    - Sapphire [SAPPHIRE Technology Limited](https://www.sapphiretech.com/de-de?aliasId=wYGXwYqXJAqs54wcx)
+- **Labs**
+    - CHTC UW Research Computing [Welcome to the CHTC GPU Lab](https://chtc.cs.wisc.edu/uw-research-computing/gpu-lab.html?aliasId=7gLEq43amvq4hrpD5)
+    - Princeton Research Computing [GPU Computing | Princeton Research Computing](https://researchcomputing.princeton.edu/support/knowledge-base/gpu-computing?aliasId=c6K5q5DH33B7vgZBD)
+    - Make Programming Simple Lab [GPU Computing – MPS Lab](https://labs.engineering.asu.edu/mps-lab/research-themes/accelerated-computing/gpuc/?aliasId=Qs2cZYQZYXS5D2NBw)
+    - Irish Centre for High-end Computing [GPU Research & Development | ICHEC](https://www.ichec.ie/about/activities/novel-technologies/many-core-rd/gpu-research-development?aliasId=Bpv8aqKB6Eo6NNS64)
+    - NVIDIA GPU Research Center [Higher Education and Research | NVIDIA Developer](https://developer.nvidia.com/higher-education-and-research?aliasId=B7nF9u5DTRpCZKm8S)
+- **People**
+    - Jensen Huang
+    - Chris Malachowsky
+- **Ways for getting involved**
+    - GPU hackathon [GPU Hackathons and Bootcamps | GPU Hackathon](https://www.gpuhackathons.org/?aliasId=DoDiupAdpyxDHbWDr)
+    - Build your own on GPU computing based computer[How to build the perfect Deep Learning Computer and save thousands of dollars | by Jeff Chen | Mission.org | Medium](https://medium.com/the-mission/how-to-build-the-perfect-deep-learning-computer-and-save-thousands-of-dollars-9ec3b2eb4ce2?aliasId=aWcC3zXArb2AhiNu2)
+    - GPU grant program for scientific research projects and prospective startups [GPU Grant Program for Research Projects and Startups](https://hostkey.com/about-us/grants-for-scientific-projects-and-startups/?aliasId=Bx8jt5dpaqmrZChrg)
+    - Use a GPU cloud provider for machine learning [How to use NVIDIA GPUs for Machine Learning with the new Data Science PC from Maingear | by Déborah Mesquita | Towards Data Science](https://towardsdatascience.com/how-to-use-gpus-for-machine-learning-with-the-new-nvidia-data-science-workstation-64ef37460fa0?aliasId=HRa5GhAuppWPLjM8u)
+    - NVIDIA fellowship [Graduate Fellows & Fellowship Opportunities | NVIDIA Research](https://www.nvidia.com/en-us/research/graduate-fellowships/?aliasId=iYnSXvoctK5qtzkKQ)
+### Quantum computing
+- **Description**
+    - Performs calculations via properties of quantum states, such as superposition, interference, and entanglement, to perform calculations. [Quantum computing - Wikipedia](https://en.wikipedia.org/wiki/Quantum_computing#:~:text=Quantum%20computing%20is%20a%20type,are%20known%20as%20quantum%20computers.?aliasId=29N7a64FBNNZrdvfH)
+- **History**
+    - 1980 - Paul Benioff proposed quantum mechanical model of the Turing machine.
+    - 1994 - Peter Shor developed quantum algorithm for finding prime factors of an integer.
+    - 1998 - Isaac Chuang, Neil Gershenfeld and Mark Kubinec created two-qubit quantum computer that could perform computations.
+    - 2019 - Google AI and NASA claiming to have performed quantum computation that was infeasible on any classical computer (gets still researched if claim is valid or not)
+- **Companies**
+    - Google Quantum AI [Google Quantum AI](https://quantumai.google/?aliasId=h33i5GLBMnMvCLqiL)
+    - IQM [We build quantum computers. | IQM](https://www.meetiqm.com/?aliasId=Rv5T8q7wabjbEdhgM)
+    - IBM [Quantum Computing | IBM Research](https://research.ibm.com/quantum-computing?aliasId=MyTH6i5n3ZxGQ5xpz)
+    - D-Wave Systems[D-Wave Systems | The Practical Quantum Computing Company](https://www.dwavesys.com/?aliasId=2L73BoPhjqRzwn4de)
+    - QCI [Quantum Circuits, Inc.](https://quantumcircuits.com/?aliasId=f2w3wnN2zDknghpqf)
+- **Labs**
+    - Oxford Quantum [Oxford Quantum](http://oxfordquantum.org/?aliasId=ZxvSxaS3usiPZkkd7)
+    - Institute for quantum computing Waterloo [Home | Institute for Quantum Computing | University of Waterloo](https://uwaterloo.ca/institute-for-quantum-computing/?aliasId=FiLk8kdoBysb7p8Sx)
+    - Center for Theoretical Physics MIT [Center for Theoretical Physics » MIT Physics](https://physics.mit.edu/research/labs-centers/center-for-theoretical-physics/?aliasId=ztd9c5Qqd9vfe4Zs3)
+    - Centre Quantum Technologies [CQT | Centre for Quantum Technologies](https://www.quantumlah.org/?aliasId=X35nzSuNd2GYGmpAi)
+    - QAR LAB [Quantencomputing-Forschung: Paper und Abschlussarbeiten am QAR-Lab](https://qarlab.de/en/research/?aliasId=4xqabf5kc6WHDCEKP)
+- **People**
+    - Jan Goetz [twitter.com/jangoetz6?lang=en](https://twitter.com/jangoetz6?lang=en?aliasId=PBuFC4yYSqef8YybH)
+    - John M. Martinis [Martinis Group - Home](http://web.physics.ucsb.edu/~martinisgroup/?aliasId=ztZdPwhDeXhPKQP37)
+    - Irfan Siddiqi [Irfan Siddiqi | UC Berkeley Physics](https://physics.berkeley.edu/people/faculty/irfan-siddiqi?aliasId=RFPxkraEJBromTCyc)
+    - Andreas Walraff [Quantum Device Lab](https://qudev.phys.ethz.ch/?aliasId=i6pNQFvDdrFwNYpxB)
+    - Amir Yacoby [Yacoby Lab Spin Qubits](http://yacoby.physics.harvard.edu/yacoby_spinqubits.html?aliasId=95SX3PKmcCyAh4tyj)
+- **Ways for getting involved**
+    - contribute to Qiskit  [Qiskit · GitHub](https://github.com/Qiskit/?aliasId=oukNqt8xkmaqj6sSX)
+    - Writing blog posts on how to get started with Qiskit
+    - List of projects [Unitary Fund](https://unitary.fund/ideas.html?aliasId=kBpMxuhtpM4ZwZB6a)
+    - Donate [Unitary Fund](https://unitary.fund/donate.html?aliasId=DD9X46BQWXgraGbq7)
+    - List of projects [Google Summer of Code 2020 · qutip/qutip Wiki · GitHub](https://github.com/qutip/qutip/wiki/Google-Summer-of-Code-2020?aliasId=ZJx9NdfjrPpQE3FuT)
+- **Comments**
+    - List of people [Who are the top professors working on Quantum Computation? - Quora](https://www.quora.com/Who-are-the-top-professors-working-on-Quantum-Computation?aliasId=EFkqtC2KaoJjJpXfE)
+    - Tips for getting involved [The Hitchhiking Cat’s Guide to Getting a Job in Quantum Computing | by Jay Gambetta | Qiskit | Medium](https://medium.com/qiskit/the-hitchhiking-cats-guide-to-getting-a-job-in-quantum-computing-da7e3bb9ff64?aliasId=rAytaFnhRQXMCPAMA)
+### CPU computing
+- **Description**
+    - Is the electronic circuitry that executes instructions comprising a computer program.
+- **History**
+    - 1945 - John von Neumann distributed paper entitled "First draft of a Report on the EDVAC"
+    - 1955 - Central processing unit term is used
+    - 1964 - IBM introduced computer architecture that was used in series of computers based on transistors
+    - 1971 - Introduction first commercially available micro processor
+- **Companies**
+    - [www.amd.com/en](https://www.amd.com/en?aliasId=JE4wXkk6fmHhfyzMy)
+    - [MediaTek | Homepage](https://www.mediatek.com/?aliasId=5kJ9S5CRfw7Ze7ZwZ)
+    - [Homepage | GLOBALFOUNDRIES](https://gf.com/?aliasId=rdukwaoLnwDm3giww)
+    - [Marvell Technology, Inc. | Essential technology, done right](https://www.marvell.com/?aliasId=MsdvQG5Pw3GERRFTj)
+    - [Renesas Electronics Corporation](https://www.renesas.com/us/en?aliasId=iBmMB8yvSHWdqWoNY)
+- **Labs**
+    - [www.amd.com/en/corporate/research](https://www.amd.com/en/corporate/research?aliasId=AsQSswJnGLPSkPn2G)
+    - [Computer Laboratory: Computer Architecture Group](https://www.cl.cam.ac.uk/research/comparch/?aliasId=NniqQmz5itGpexmBA)
+    - [Labs and Facilities | College of Computing | Michigan Tech](https://www.mtu.edu/computing/facilities/?aliasId=j8cvtdxAhtiaQmLRh)
+    - [Intel Labs - Computer Science Research and Collaboration](https://www.intel.com/content/www/us/en/research/overview.html?aliasId=ajiczmGk4shr35ipW)
+    - [Research Centers & Labs | Manning College of Information and Computer Sciences | UMass Amherst](https://www.cics.umass.edu/research/research-groups?aliasId=5wPs63ioGduRPCHic)
+- **Ways for getting involved**
+    - Donate CPU power, they mine cryptocurrencies with it [Cudo Donate](https://www.cudodonate.com/?aliasId=3gbxseh64QvBKwj6Y)  (for different use cases possible to spend CPU power [9 Ways You Can Use Your Devices for Advanced Scientific Research](https://singularityhub.com/2017/12/31/9-ways-you-can-use-your-devices-for-advanced-scientific-research/?aliasId=c5L3XRtSLeRRSCe84))
+    - Build your own CPU from scratch [Can you build your own CPU from scratch? How much would it cost? - Quora](https://www.quora.com/Can-you-build-your-own-CPU-from-scratch-How-much-would-it-cost?aliasId=bHGwyZZ9ZcCRTnXQt)
+### AI accelerator 
+- **Description**
+    - Specialized hardware accelerator to accelerate AI or ML processes.
+- **History**
+    - 2010s - Through upcoming of deep learning more specialized AI hardware was created
+    - 2016 - GPUs get popular for AI related work
+    - 2017 - In-memory computing architectures
+    - 2019 - In-memory computing with analog resistive memories  
+    - 2020 - Atomically thin semiconductors  
+    - 2021 - Integrated photonic tensor core  
+- **Companies**
+    - [Homepage - Cerebras](https://cerebras.net/)
+    - [SambaNova Systems | Creating the AI Enabled Enterprise - SambaNova Systems](https://sambanova.ai/)
+    - [Graphcore: Accelerating machine learning for a world of intelligent machines](https://www.graphcore.ai/)
+    - [Home - Groq](https://groq.com/) 
+    - [Power-efficient analog compute for edge AI - Mythic](https://mythic.ai/) 
+- **Labs**
+    - [Machine Learning at SLAC | SLAC National Accelerator Laboratory](https://ml.slac.stanford.edu/)
+    - [AI Research Areas | Computing](https://computing.fnal.gov/ai-research-areas/) 
+    - [Penn Computational Intelligence Lab](https://li.seas.upenn.edu/) 
+- **People**
+    - [‪Andreas Adelmann‬ - ‪Google Scholar‬](https://scholar.google.co.uk/citations?user=84ZJvbsAAAAJ&hl=en)
+    - [www.linkedin.com/in/jonathan ross 12a95156/](https://www.linkedin.com/in/jonathan-ross-12a95156/)
+    - [www.linkedin.com/in/mike henry 72204123/](https://www.linkedin.com/in/mike-henry-72204123/)
+    - [portal.slac.stanford.edu/sites/lcls public/science/people/dratner/Pages/default.aspx](https://portal.slac.stanford.edu/sites/lcls_public/science/people/dratner/Pages/default.aspx)
+    - [Sara A. Miskovich | Machine Learning at SLAC](https://ml.slac.stanford.edu/saramiskovich) 
+- **Ways for getting involved**
+    - [PEOPLE | Machine Learning at SLAC](https://ml.slac.stanford.edu/people), Join a lab or a company
+    - Search a small project to get familiar withe field
+    - [Hardware Accelerators for Machine Learning (CS 217) by        cs217](https://cs217.stanford.edu/), Follow a curriculum on the field
+    - [NANO-CHIPS 2030: On-Chip AI for an Efficient Data-Driven World (The Frontiers Collection): Murmann, Boris, Hoefflinger, Bernd: 9783030183370: Amazon.com: Books](https://www.amazon.com/NANO-CHIPS-2030-Chip-Autonomous-Chip-Systems/dp/3030183378/ref=asc_df_3030183378/?tag=hyprod-20&linkCode=df0&hvadid=459640465657&hvpos=&hvnetw=g&hvrand=3680559696507768852&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1013581&hvtargid=pla-925381370361&psc=1), Read 
+## Applications
+### NLP  
+- **Description**
+    - Concerned with interactions between computers and human language.
+- **History**
+    - 1954 - Automatic translation of more than sixty Russian sentences into English
+    - 60s ‒ Further development of notable natural language processing systems ELIZA & SHRDLU
+    - 70s - Many programmers wrote conceptual ontologies
+    - 80s - Hey-day of symbolic methods in NLP
+    - 1990s - 2010s - Introduction of machine learning algorithms for language processing
+- **Companies**
+    - [Aigo.ai – Enterprise Chatbot with a Brain](https://aigo.ai/?aliasId=CWwmBqr7zzafg996e), Chatbot
+    - [Verbit: Professional AI-Based Transcription & Captioning Services](https://verbit.ai/?aliasId=hrfPDbKEgcHgcKKkJ), Transcription
+    - [Augmented Voice Intelligence for Contact Centers | Skit.ai](https://skit.ai/?aliasId=akSYHcuorvDcJacpS), Augmented voice
+    - [Home - PrimerAI](https://primer.ai/?aliasId=7oyBpjvi9F68jFsEt), Textorganisation
+    - [Top 42 Startups in the Natural Language Processing Industry](https://www.failory.com/startups/natural-language-processing#toc-2-primer?aliasId=FixdT2tnqwz8D2EPu), Customer service
+- **Labs**
+    - [Research Groups | Institute for Natural Language Processing | University of Stuttgart](https://www.ims.uni-stuttgart.de/en/institute/researchgroups/?aliasId=qKh3ySAK29sBneuHQ)
+    - [The Berkeley NLP Group](http://nlp.cs.berkeley.edu/?aliasId=3QqBcLcSkRCJwQJJa)
+    - [UCL Machine Reading](https://mr.cs.ucl.ac.uk/?aliasId=qGAaTMafjTTRjEJKe)
+    - [The Stanford Natural Language Processing Group](https://nlp.stanford.edu/?aliasId=HLv3LFN6xs6sRdMEK)
+    - [Computer Laboratory – Natural Language and Information Processing Research Group: NLIP Group](https://www.cl.cam.ac.uk/research/nl/?aliasId=3b848xuaSjCHv9sdA)
+- **People**
+    - [www.linkedin.com/in/vosspeter](https://www.linkedin.com/in/vosspeter?aliasId=C7FM5PB253JEhMYq9)
+    - [Christopher Manning's Profile | Stanford Profiles](https://profiles.stanford.edu/chris-manning?aliasId=kQpmpdg6LHiHygRsY)
+    - [Sebastian Ruder](https://ruder.io/?aliasId=A5eDs5SxPpWq2wcaN)
+    - [Dr. Rachael Tatman](https://www.rctatman.com/?aliasId=62cZjCvQpB2v48i5S)
+    - [Richard Socher](https://www.socher.org/?aliasId=mNyfw58eWsYdS7cNX)
+- **Ways for getting involved**
+    - [GitHub - keon/awesome-nlp: A curated list of resources dedicated to Natural Language Processing (NLP)](https://github.com/keon/awesome-nlp?aliasId=3PcdnSrwhbFsQPgXj), List of useful links
+    - [300+ GPT-3 Examples, Demos, Apps, Showcase, and NLP Use-cases | GPT-3 Demo](https://gpt3demo.com/?aliasId=T82WJ9w3kBNhKSgs7), Explore use cases of language models like GPT-3
+    - [Write With Transformer](https://transformer.huggingface.co/?aliasId=psbv83KKMb2krNsy6), Start writing with language models
+### Computer Vision
+- **Description**
+    - Deals with how computers can gain high level understanding from digital images or videos.
+- **History**
+    - 1960 - Start at universities
+    - 1970s - formed the early foundations of many computer vision algorithms which exist today
+    - 1990s - changes through increased interactions between the fields of computer graphics and computer vision
+- **Companies**
+    - [Anduril â€” Home](https://www.anduril.com/), Military use
+    - [Metropolis | We make the journey remarkable](https://metropolis.io/), Mobile commerce and parking
+    - [Robotic Automation for Restaurants | Miso Robotics](https://misorobotics.com/) Robotics focus on restaurant industry
+    - [gita store - Piaggio Fast Forward](https://shop.piaggiofastforward.com/?_ga=2.63624109.309326748.1648511687-11106.1648511687), Following robots
+    - [Viso Suite - No-Code Computer Vision Platform - viso.ai](https://viso.ai/), Platform for building computer vision platforms without code 
+- **Labs**
+    - [MIT CSAIL Computer Vision Research Group](https://groups.csail.mit.edu/vision/welcome/) 
+    - [CI2CV Computer Vision Lab](https://ci2cv.net/)
+    - [Computational Vision: [Home]](http://www.vision.caltech.edu/)
+    - [UCLA Vision Lab](http://vision.ucla.edu/)
+    - [Computer Vision and Learning Lab Heidelberg](https://hci.iwr.uni-heidelberg.de/vislearn/) 
+- **People**
+    - [www.robots.ox.ac.uk/~az/](https://www.robots.ox.ac.uk/~az/) , Andrew Zisserman
+    - [Computational Perception & Cognition](http://olivalab.mit.edu/audeoliva.html), Aude Oliva 
+    - [Alex Krizhevsky](https://www.cs.toronto.edu/~kriz/), Alex Krizhevsky
+    - [Pushmeet Kohli](https://sites.google.com/site/pushmeet/), Pushmeet Kohli
+    - [Takeo Kanade - The Robotics Institute Carnegie Mellon University](https://www.ri.cmu.edu/ri-faculty/takeo-kanade/), Takeo Kanade
+- **Ways for getting involved**
+    - [AIcrowd | AI Blitz XIII | Challenges](https://www.aicrowd.com/challenges/ai-blitz-xiii), Do this five computer challenges
+    - [GitHub - jbhuang0604/awesome-computer-vision: A curated list of awesome computer vision resources](https://github.com/jbhuang0604/awesome-computer-vision), comprehensive list of projects 
+    - [Tips On Getting Started With Computer Vision In Your Business](https://www.forbes.com/sites/forbestechcouncil/2022/03/02/tips-on-getting-started-with-computer-vision-in-your-business/?sh=2ae195636976), Implement computer vision in your business 
+### Bioinformatics 
+- **Description**
+    - Field which develops methods and software tools for understanding biological data 
+- **History**
+    - 1970 - Paulien Hogeweg and Ben Hesper coined it 1970
+- **Companies**
+    - [Isomorphic Labs | Home](https://www.isomorphiclabs.com/),  Drug discovery
+    - [Home - Causaly](https://www.causaly.com/), Uses ML to read scientific articles and extract causal associations
+    - [Diagnostic Tests for Lung Cancer | Lung Cancer Tests | Biodesix](https://www.biodesix.com/), Uncovers blood based biomarker patterns
+    - [BioTrillion — Data from Life. Data for Life.](https://www.biotrillion.com/), Takes sensor datas from customer environment to measure disease development and response to drugs
+    - [GERO.AI – Hacking complex diseases and aging](https://www.gero.ai/), Identifies biomarkers of aging and drug discovery for aging
+- **Labs**
+    - [Troyanskaya Laboratory](https://function.princeton.edu/)
+    - [This is the kiwi-biolab, a BMBF KI Future Lab!](https://kiwi-biolab.de/), Collaboration of scientists to find automation opportunities in biotechnological processes
+    - [Homepage - Machine Learning and Computational Biology Lab – Machine Learning & Computational Biology Lab  | ETH Zurich](https://bsse.ethz.ch/mlcb)
+    - [AIMS Lab](https://aims.cs.washington.edu/)
+    - [Machine Learning](https://www.helmholtz-munich.de/icb/research/labs/machine-learning/overview/index.html) 
+- **People**
+    - [‪Wolfgang Huber‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=gI8o6x8AAAAJ)
+    - [‪Serafim Batzoglou‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=POWKkqEAAAAJ&hl=en)
+    - [‪Steven Salzberg‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=sUVeH-4AAAAJ&hl=en)
+    - [‪Peer Bork‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=M6Etr6oAAAAJ&hl=en) 
+    - [Piotr DABROWSKI | Professor | Prof. Dr.-Ing. | Hochschule für Technik und Wirtschaft Berlin, Berlin | HTW | FB 4](https://www.researchgate.net/profile/Piotr-Dabrowski-10) 
+- **Ways for getting involved**
+    - [ROSALIND | Problems | Locations](https://rosalind.info/problems/locations/), Solve problems 
+    - [www.youtube.com/watch?v=jBlTQjcKuaY&t=5014s](https://www.youtube.com/watch?v=jBlTQjcKuaY&t=5014s), Drug discovery tutorial
+    - [4273pi.org/](https://4273pi.org/)
+    - [List of open-source bioinformatics software - Wikipedia](https://en.wikipedia.org/wiki/List_of_open-source_bioinformatics_software), Open source software contribution
+    - [Donate – Armenian Bioinformatics Institute](https://abi.am/donate/), Donation 
+- **Comments**
+    - [230 Startups Using Artificial Intelligence in Drug Discovery](https://blog.benchsci.com/startups-using-artificial-intelligence-in-drug-discovery), list of AI drug discovery companies 
+### Pattern Recognition
+- **Description**
+    - Automated recognition of patterns and regularities in data
+- **History**
+    - 1967 - Invention of nearest neighbor algorithm and begin of basic pattern recognition
+- **Companies**
+    - [Plantix | Best Agriculture App](https://plantix.net/en/), Diagnosis of diseases, pests and nutrient deficiencies
+    - [Home - Osaro](https://osaro.com/), Robotics solution for e-commerce
+    - [CAD/CAM Software fuer Orthopädietechniker | Mecuris](https://www.mecuris.com/), Orthoses production
+    - [Planet | Homepage](https://www.planet.com/), Geospatial analysis
+    - [SensiML - Making Sensor Data Sensible](https://sensiml.com/), Pattern recognition with IoT 
+- **Labs**
+    - [Pattern Recognition & Bioinformatics](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics)
+    - [Pattern Recognition and Image Processing (PRIP) Lab | Michigan State University | College of Engineering | Future Engineers](https://www.egr.msu.edu/future-engineer/pattern-recognition-and-image-processing-prip-lab)
+    - [Document and Pattern Recognition Lab | RIT](https://www.rit.edu/facilities/document-and-pattern-recognition-lab)
+    - [Overview - Pattern Recognition Lab](https://lme.tf.fau.de/)
+    - [Pattern Recognition Lab](https://www5.cs.fau.de/) 
+- **People**
+    - [see.xidian.edu.cn/faculty/xbgao/](https://see.xidian.edu.cn/faculty/xbgao/)
+    - [‪Licheng Jiao‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=FZbrL2YAAAAJ&hl=en) 
+    - [‪Dacheng Tao‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=en)
+    - [‪Xiang Bai‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=UeltiQ4AAAAJ&hl=en)
+    - [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/) 
+- **Ways for getting involved**
+    - [Pattern Recognition | Introduction - GeeksforGeeks](https://www.geeksforgeeks.org/pattern-recognition-introduction/), Intro
+    - [www.icpr2022.com/](https://www.icpr2022.com/), Attend conference 
+    - [Public datasets for symbolic pattern recognition](https://homepages.inf.ed.ac.uk/rbf/IAPR/researchers/SPRPAGES/sprdat.htm), Datasets 
+### Recommendation systems
+- **Description**
+    - Predicts what rating or preferences a user would give to an item.
+- **History**
+    - 1990 - First mentioned by Jussi Karlgren
+    - 1994 - Implemented at scale
+- **Companies**
+    - [Smart Product Recommendation - Stridely Solutions](https://www.stridelysolutions.com/smart-product-recommendation/), Product recommendation
+    - [AI-Powered Real-Time Recommender | Recombee](https://www.recombee.com/) 
+    - [Abacus.AI - Effortlessly Embed Cutting Edge AI In Your Applications.](https://abacus.ai/user_eng?token=reco1&gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb2dNVhJX66WCFrjXOhXy-ROy41cWUwUaLP9QNp0HUorUE8YCqK1xTgaAoWnEALw_wcB) 
+    - [Home](https://xgen.ai/?gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb2nnqH2hA8X3sbZeNUu4DwAjWvHJWlIJJ1TcjZoENeBWDpZnM1pJ48aAvgsEALw_wcB)
+    - [preezie | #1 AI Product Recommendation Engine](https://www.preezie.com/ai-product-recommendation?utm_term=recommendations%20engine&utm_campaign=preezie+SKAG&utm_source=adwords&utm_medium=ppc&hsa_acc=5691751332&hsa_cam=11438522546&hsa_grp=111107726119&hsa_ad=549255617436&hsa_src=g&hsa_tgt=kwd-295495314942&hsa_kw=recommendations%20engine&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb1Gqf0aMeT3Ux7hMC3S0zaQOiyJFZAo6Pv7VEK36sgod4EbJ57H6pIaAhdGEALw_wcB) 
+- **Labs**
+    - [Home | That Recommender Systems Lab](http://www.that-recsys-lab.net/)
+    - [Recommender LAB](https://www.martijnwillemsen.nl/recommenderlab/) 
+    - [Recommender Systems — International Laboratory for Intelligent Systems and Structural Analysis — HSE University](https://cs.hse.ru/en/ai/issa/Field_Recommender_Systems/)
+    - [AI Lab Areas -  Learning for Recommender Systems](https://www.cs.utexas.edu/users/ai-lab/?learnrecommender) 
+    - [SPC Lab](https://fekri.ece.gatech.edu/proj_soc_comp.html) 
+- **People**
+    - [Martijn Willemsen](https://martijnwillemsen.nl/) 
+    - [www.linkedin.com/in/mschrage/](https://www.linkedin.com/in/mschrage/), Author of [Recommendation Engines - Michael Schrage - Google Books](https://books.google.com/books/about/Recommendation_Engines.html?id=Cr74DwAAQBAJ&printsec=frontcover&source=kp_read_button&hl=en&newbks=1&newbks_redir=0#v=onepage&q&f=false) 
+    - [Alexander Felfernig | Univ.-Prof. DI Dr. Alexander Felfernig	](https://felfernig.ist.tugraz.at/)
+    - [‪Pijush Kanti Dutta Pramanik‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=KqefJxsAAAAJ&hl=en)
+    - [‪Avick Kumar Dey‬ - ‪Google Scholar‬](https://scholar.google.com/citations?user=MrZiOykAAAAJ&hl=en) 
+- **Ways for getting involved**
+    - [That Recommender Systems Lab · GitHub](https://github.com/that-recsys-lab), Contribution
+    - [Recommendation Engines - Michael Schrage - Google Books](https://books.google.com/books/about/Recommendation_Engines.html?id=Cr74DwAAQBAJ&printsec=frontcover&source=kp_read_button&hl=en&newbks=1&newbks_redir=0#v=onepage&q&f=false), Reading 
+    - Try recommendation for your use cases (i.e. business) 
+- **Comments**
+    - [GitHub - grahamjenson/list_of_recommender_systems: A List of Recommender Systems and Resources](https://github.com/grahamjenson/list_of_recommender_systems), Helpful list with all informations about recommender systems 
+### XR/AI
+- **Description**
+    - Use of machine learning and artificial intelligence in virtual realities. 
+- **History**
+    - 1968-  Ivan Sutherland and  Bob Sproull created the first VR / AR  head mounted display
+    - 2007 – Google introduced Street View, which provides panoramic views of locations.
+    - 2010 – The first prototype of the Oculus Rift headset was designed.
+    - 2014 - Google Glass
+    - 2021 - Replika launches in the Oculus store
+- **Companies**
+    - [        Tech Specs â€“ Glass    ](https://www.google.com/glass/tech-specs/) 
+    - [Replika](https://replika.ai/) 
+    - [Niantic, Inc.](https://nianticlabs.com/en/) 
+    - [Avegant | Products](https://www.avegant.com/products.html) 
+    - [Meta AI](https://ai.facebook.com/) 
+    - [Mixed Reality & AI Lab – Zurich - Microsoft Research](https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/) 
+    - [AR, VR, MR & AI solutions for business | Lucid Reality Labs](https://lucidrealitylabs.com/) 
+    - [Omniverse Platform for 3D Design Collaboration and Simulation | NVIDIA](https://www.nvidia.com/en-us/omniverse/?ncid=pa-srch-goog-481044&gclid=CjwKCAjwrqqSBhBbEiwAlQeqGrp0yxZDpixGaN3Pp3pWSpNlxeVaaaqxnKgwW8BOfgYd60v9JbEhIBoC67kQAvD_BwE#cid=ov01_pa-srch-goog_en-us) 
+- **Labs**
+    - [MetaGen | Bringing AI to the Metaverse, and viceversa](https://metagen.ai/) 
+    - [Insights - AIXR](https://aixr.org/insights/) 
+    - [VHIL | Virtual Human Interaction Lab](https://stanfordvr.com/) 
+    - [Research - XR Lab - UC Berkeley](https://xrlab.berkeley.edu/research/)
+    - [Research — MIT Media Lab](https://www.media.mit.edu/research/?filter=everything&tag=augmented-reality) 
+- **People**
+    - [www.linkedin.com/in/eugenia kuyda 638a8a1b/](https://www.linkedin.com/in/eugenia-kuyda-638a8a1b/) 
+    - [Cathy Hackl](https://www.cathyhackl.com/)
+    - [www.linkedin.com/in/benitopagotto/?originalSubdomain=uk](https://www.linkedin.com/in/benitopagotto/?originalSubdomain=uk)
+    - [www.linkedin.com/in/borgetsebastien/](https://www.linkedin.com/in/borgetsebastien/)
+    - [www.linkedin.com/in/hrishlotlikar/](https://www.linkedin.com/in/hrishlotlikar/) 
+- **Ways for getting involved**
+    - [Google Cardboard â€“ Google VR](https://arvr.google.com/cardboard/) , Play around with VR
+    - [Replika (Early Access) on Oculus Quest | Oculus](https://www.oculus.com/experiences/quest/5620852627988042/), Create your Replika on the Oculus 
+    - [AIXR - The Academy of International Extended Reality](https://aixr.org/), Become a member 
+- **Comments**
+    - [XR Research Group Index – Services – Helsinki XR Center](https://helsinkixrcenter.com/xr-research-group-index/), Catalog of XR related institutions 
+## Artificial General Intelligence
+- **Description**
+    - Ability of an intelligent agent to understand or learn any intellectual task that a human being can.
+    - History
+    - 1950s - First generation of AI researcher were convinced that artificial intelligence was possible
+    - 1970s - AI winter
+    - 1980s - Knowledge became focus of mainstream AI
+    - 1987 - 1993 - AI winter
+    - 1993 - 2011 - Used successfully throughout the technology industry
+    - 2011 - present Deep learning, big data and artificial general intelligence 
+    - Companies
+    - [Robotics Integrator Powered by AI – Vicarious](https://www.vicarious.com/)
+    - [Numenta | Where Neuroscience Meets Machine Intelligence](https://numenta.com/)
+    - [ Rent GPU Servers for Deep Learning and AI | Vast.ai](https://vast.ai/)
+    - [DeepMind](https://www.deepmind.com/)
+    - [About – AIBrain](https://aibrain.com/about/)
+    - [About OpenAI](https://openai.com/about/) 
+    - [Olbrain - The AGI Brain ](http://olbrain.com/)
+    - [GoodAI | Develop safe general artificial intelligence – as fast as possible – to help humanity and understand the universe.](https://www.goodai.com/) 
+    - [generallyintelligent.ai/](https://generallyintelligent.ai/) 
+- **Labs**
+    - [Genesis](https://web.archive.org/web/20050405071221/http://genesis.csail.mit.edu/index.html) 
+    - [CCRG - Cognitive Computing Research Group - Projects](https://ccrg.cs.memphis.edu/projects.html)
+    - [EleutherAI](https://www.eleuther.ai/) 
+    - [SNePS Research Group Home Page](https://cse.buffalo.edu/sneps/) 
+    - [Blue Brain Project ‐ EPFL](https://www.epfl.ch/research/domains/bluebrain/) 
+    - People
+    - [www.linkedin.com/in/marekrosa1/](https://www.linkedin.com/in/marekrosa1/), Founder of GoodAI 
+    - [www.hutter1.net/](http://www.hutter1.net/)
+    - [people.idsia.ch/~juergen/](https://people.idsia.ch/~juergen/) 
+    - [cis.temple.edu/~wangp/](https://cis.temple.edu/~wangp/)
+    - [www.linkedin.com/in/bengoertzel/](https://www.linkedin.com/in/bengoertzel/) 
+    - Ways for getting involved
+    - [Open-NARS](http://www.opennars.org/), [University of Michigan Soar Group · GitHub](https://github.com/SoarGroup), Contribute to open source projects
+    - [OpenCog Foundation  |  Donate](https://opencog.org/donate/), Donate to openCog 
+    - [Theoretical Foundations of Artificial General Intelligence | SpringerLink](https://link.springer.com/book/10.2991/978-94-91216-62-6), Start with creating a reading list  or join existing curriculum [AGI Curriculum – goertzel.org](http://goertzel.org/agi-curriculum/) 
+    - [EleutherAI](https://www.eleuther.ai/), Join a AI community 
+## Algorithms/Architectures
+### Badger Architecture
+- **Description**
+    - Set of design principles and a learning protocol. 
+- **History**
+    - 2019 - Release of Badger architecture
+- **Companies**
+    - [GoodAI | Develop safe general artificial intelligence – as fast as possible – to help humanity and understand the universe.](https://www.goodai.com/) 
+- **People**
+    - [www.linkedin.com/in/marekrosa1/](https://www.linkedin.com/in/marekrosa1/)
+    - [www.linkedin.com/in/sarkakrejcova/](https://www.linkedin.com/in/sarkakrejcova/) 
+    - [www.linkedin.com/in/lucie krestova 4694738/](https://www.linkedin.com/in/lucie-krestova-4694738/) 
+- **Ways for getting involved**
+    - [GoodAI Grants | GoodAI](https://www.goodai.com/goodai-grants/), Apply for an grant
+    - [Careers | GoodAI](https://www.goodai.com/careers/), Apply 
+    - [[1912.01513] BADGER: Learning to (Learn [Learning Algorithms] through Multi-Agent Communication)](https://arxiv.org/abs/1912.01513), Read the paper 
+### NARS 
+- **Description**
+    - NARS (Non-Axiomatic Reasoning System) is a project aimed at the building of a general-purpose intelligent system, i.e., a "thinking machine".
+- **History**
+    - 1986 - Version 1 at Peking University
+    - 1992 - Version 2 at Indiana University
+    - 1995 - Version 3 at Indiana University 
+    - 1998 - Philadelphia University
+    - 2008 - Open source version [Open-NARS](https://www.opennars.org/) 
+- **Labs**
+    - [cis.temple.edu/tagit/](https://cis.temple.edu/tagit/) 
+- **People**
+    - [cis.temple.edu/~pwang/](https://cis.temple.edu/~pwang/) 
+    - [www.linkedin.com/in/hongzheng wang/](https://www.linkedin.com/in/hongzheng-wang/)
+    - [www.christianhahm.com/](https://www.christianhahm.com/) 
+    - [www.linkedin.com/in/mina gabriel b9628913b/](https://www.linkedin.com/in/mina-gabriel-b9628913b/)
+    - [www.linkedin.com/in/edward sharick/](https://www.linkedin.com/in/edward-sharick/) 
+- **Ways for getting involved**
+    - [cis.temple.edu/tagit/](https://cis.temple.edu/tagit/), Join the team 
+    - [Non-Axiomatic Logic](https://www.worldscientific.com/worldscibooks/10.1142/8665) , Read the book
+    - [**pei.wang@temple.edu **](mailto:pei.wang@temple.edu)  , Write the inventor 
+    - [open-nars - Google Groups](https://groups.google.com/g/open-nars), Participate in group discussions 
+- **Comments**
+    - From Pei Wang, Ph.D.:
+        - My project is NARS (Non-Axiomatic Reasoning System), with Non-Axiomatic Logic as a part (the logic used). Pavol Durisek created [www.applied nars.com/](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.applied-nars.com%2F&data=04%7C01%7Cpei.wang%40temple.edu%7C4ea462f389464aa451e608da138a0319%7C716e81efb52244738e3110bd02ccf6e5%7C0%7C0%7C637843781654695384%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C2000&sdata=vA7IzhnHmwhySIen1LqD7iLElO76viKvdCU8MxtMFmo%3D&reserved=0) in 2013 to apply NARS in cettain domains. As far as I can tell, he is no longer actively working on this project. That website should not be used to represent NARS. 
+### AIXI
+- **Description**
+    - Is a reinforcement learning agent.
+- **History**
+    - 2000- First proposal from Marcus Hutter
+    - 2005 - Several results regarding AIXI are proved in Hutter's 2005 book Universal Artificial Intelligence
+- **People**
+    - [www.hutter1.net/](http://www.hutter1.net/) 
+- **Ways for getting involved**
+    - [www.hutter1.net/prize/index.htm](http://www.hutter1.net/prize/index.htm), Try the compressing human knowledge challenge
+    - [Professor Marcus Hutter | ANU College of Engineering & Computer Science](https://cecs.anu.edu.au/people/marcus-hutter), Join projects which are promoted by Hutter 
+    - [AIXI - LessWrong](https://www.lesswrong.com/tag/aixi), Read the AIXI discussion on Lesswrong 
+### ACT-R
+- **Description**
+    - Theory about how human cognition works.
+- **History**
+    - 1973 - 1990 - ACT-R is the ultimate successor of a series of increasingly precise models of human cognition developed by John R. Anderson.
+    - 1990 - 1998 - Release of ACT-R 4.0 (software)
+- **Labs**
+    - [ACT-R  ](http://act-r.psy.cmu.edu/) 
+    - [LearnLab –          Part of the Simon Initiative](https://learnlab.org/) 
+    - [        Research Services, Open Innovation and Breakthrough Technology    ](https://www.parc.com/)
+    - [pact.cs.cmu.edu/](http://pact.cs.cmu.edu/) 
+- **People**
+    - [John R Anderson -     Department of Psychology -     Dietrich College of Humanities and Social Sciences - Carnegie Mellon University](https://www.cmu.edu/dietrich/psychology/people/core-training-faculty/anderson-john.html) 
+    - [ACT-R   » People](http://act-r.psy.cmu.edu/people/), Extensive list of people which are involved in the project 
+- **Ways for getting involved**
+    - [How Can the Human Mind Occur in the Physical Universe? - Hardcover - John R. Anderson - Oxford University Press](https://global.oup.com/academic/product/how-can-the-human-mind-occur-in-the-physical-universe-9780195324259?q=american%20architecture&lang=en&cc=us), Read the book  
+- **Comments**
+    - [ACT-R   » People](http://act-r.psy.cmu.edu/people/), List with all the people which are involved
+### MicroPsi
+- **Description**
+    - Agent architecture which describes the interaction of emotion, motivation and cognition of situated agents. 
+- **History**
+    - 1999 - 2002 - Creation of the Psi theory
+    - 2003 - 2007 - MicroPsi 1
+    - 2012 - Start MicroPsi 2
+- **Labs**
+    - [People ‹ MicroPsi: An Architecture for Motivated Cognition — MIT Media Lab](https://www.media.mit.edu/projects/micropsi-an-architecture-for-motivated-cognition/people/) 
+    - [Cognitive AI](http://www.cognitive-ai.com/) 
+- **People**
+    - [Joscha Bach](http://bach.ai/)
+    - [www.linkedin.com/in/rvuine/?locale=en US](https://www.linkedin.com/in/rvuine/?locale=en_US)
+    - [www.linkedin.com/in/dominik welland 324b2394/?originalSubdomain=de](https://www.linkedin.com/in/dominik-welland-324b2394/?originalSubdomain=de)
+    - [Priska Herger, Machine Learning Engineer and Co-Founder, Micropsi Industries](https://www.topionetworks.com/people/priska-herger-5bf84f321dedae2392ceb78e)
+    - [www.linkedin.com/in/jonas kemper a0908857/?originalSubdomain=de](https://www.linkedin.com/in/jonas-kemper-a0908857/?originalSubdomain=de) 
+- **Ways for getting involved**
+    - [GitHub - joschabach/micropsi2: Python version of cognitive architecture MicroPsi](https://github.com/joschabach/micropsi2), Contribute to the project
+    - [Search results for "principles of Synthetic Intelligence" (showing 1-1 of 1 books)](https://www.goodreads.com/search?q=principles+of+Synthetic+Intelligence&qid=), Read 
+### Soar
+- **Description**
+    - Is a generative cognitive architecture fro developing systems that exhibit intelligent behavior.
+- **History**
+    - 1983 - Beginning of John Laird's thesis
+    - 1990 - Unified Theories gets published
+    - 2012 - Most current and comprehensive books of Soar gets published
+- **Companies**
+    - [Home Page - SoarTech](https://soartech.com/)
+    - [Home | Cogniteam](https://www.cogniteam.com/) 
+- **Labs**
+    - [Applied Cognitive Science Lab | Exploring cognition through modeling, experimentation, and big data](http://acs.ist.psu.edu/wp/) 
+    - [Robotics Lab - Projects](http://csis.pace.edu/robotlab/projects.html)
+    - [The MAVERICK Research Group | Gal A. Kaminka: Professor](https://u.cs.biu.ac.il/~kaminkg/maverick/)
+    - [soar.eecs.umich.edu/](https://soar.eecs.umich.edu/) 
+- **People**
+    - [John E. Laird – Home of John E. Laird](https://laird.engin.umich.edu/) 
+    - [Steven J. Jones, PhD candidate | Just a basic personal website, since I’m a grad student and we’re supposed to do those things for networking and whatever.](https://scijones.github.io/)
+    - [Preeti Ramaraj's website](https://preetiramaraj.github.io/)
+    - [Jule Schatz Website](https://schatzju.github.io/)
+    - [Jonathan Voigt](http://jonathanvoigt.com/) 
+- Ways for getting involved
+    - [soar.eecs.umich.edu/](https://soar.eecs.umich.edu/), Visit the workshop which gets presented on this site 
+    - [soar.eecs.umich.edu/articles/downloads/soar suite/228 soar tutorial 9 6 0](https://soar.eecs.umich.edu/articles/downloads/soar-suite/228-soar-tutorial-9-6-0), Follow the tutorial 
+    - [The Soar Cognitive Architecture (The MIT Press): Laird, John E., III, Robert E. Wray, Wang, Yongjia, Derbinsky, Nate, Nuxoll, Andrew M., Lathrop, Scott, Wintermute, Samuel, III, Robert P. Marinier, Gorski, Nicholas, Xu, Joseph: 9780262122962: Amazon.com: Books](https://www.amazon.com/Soar-Cognitive-Architecture-John-Laird/dp/0262122960/ref=sr_1_sc_1?ie=UTF8&qid=1332172759&sr=8-1-spell), Read the book
+    - [University of Michigan Soar Group · GitHub](https://github.com/SoarGroup), Contribute on Github 
+### Language Models
+- **Description**
+    - Probability distribution over sequences of words. 
+- **History**
+    - 2001 - First neural language model
+    - 2008 - Multi-task learning 
+    - 2013 - Word embeddings
+    - 2014 - Sequence to sequence models
+    - 2015 - Memory based networks
+    - 2018 - Pretrained language models
+- **Companies**
+    - [Natürliche Sprachverarbeitung – Amazon Comprehend – Amazon Web Services](https://aws.amazon.com/de/comprehend/?trk=9c644dd6-b148-4e88-862d-48c1e5b12007&sc_channel=ps&sc_campaign=acquisition&sc_medium=ACQ-P|PS-GO|Non-Brand|Desktop|SU|Machine%20Learning|NLP|US|EN|Text&s_kwcid=AL!4422!3!570724281776!p!!g!!nlp&ef_id=CjwKCAjwxZqSBhAHEiwASr9n9N2ZHBBA_e3Vi9Uwrwis-TXi7cW337xPo1XJowHhpZsM1pOX79JwKRoCxRoQAvD_BwE:G:s&s_kwcid=AL!4422!3!570724281776!p!!g!!nlp)
+    - [AI21 Labs](https://www.ai21.com/) 
+    - [Natural Language Processing | CloudFactory](https://info.cloudfactory.com/natural-language-processing?utm_medium=ppc&utm_source=adwords&utm_term=nlp%20services&utm_campaign=NB+%7C+NLP+Services+%7C+Phrase+%7C+US%2BCA&hsa_mt=b&hsa_cam=11427832482&hsa_tgt=kwd-320915133258&hsa_acc=5324129487&hsa_grp=111839750357&hsa_src=g&hsa_net=adwords&hsa_ad=528057169438&hsa_ver=3&hsa_kw=nlp%20services&gclid=CjwKCAjwxZqSBhAHEiwASr9n9GjLgGhghvZ0kgeGTggBxnuCugMtAy6iHV2DfiZne0yk17C86mUtRhoCbBMQAvD_BwE)
+    - [OpenAI Blog](https://openai.com/blog/)
+    - [ALEPH ALPHA](https://www.aleph-alpha.com/) 
+- **Labs**
+    - [EleutherAI](https://www.eleuther.ai/) 
+    - [www.baai.ac.cn/](https://www.baai.ac.cn/) 
+- **People**
+    - [twitter.com/johannes hage](https://twitter.com/johannes_hage) 
+    - [twitter.com/npcollapse?lang=en](https://twitter.com/npcollapse?lang=en)
+    - [www.linkedin.com/in/jonasandrulis?originalSubdomain=de](https://www.linkedin.com/in/jonasandrulis?originalSubdomain=de)
+    - [www.linkedin.com/in/dario amodei 3934934/](https://www.linkedin.com/in/dario-amodei-3934934/)
+    - [Zhilin Yang | Carnegie Mellon University](https://kimiyoung.github.io/) 
+- **Ways for getting involved**
+    - [GitHub - keon/awesome-nlp: A curated list of resources dedicated to Natural Language Processing (NLP)](https://github.com/keon/awesome-nlp?aliasId=3PcdnSrwhbFsQPgXj), List of useful links
+    - [300+ GPT-3 Examples, Demos, Apps, Showcase, and NLP Use-cases | GPT-3 Demo](https://gpt3demo.com/?aliasId=T82WJ9w3kBNhKSgs7), Explore use cases of language models like GPT-3
+    - [Write With Transformer](https://transformer.huggingface.co/?aliasId=psbv83KKMb2krNsy6), Start writing with language models
+    - [GitHub - karpathy/minGPT: A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training](https://github.com/karpathy/minGPT), Implement a minGPT 
+### OpenCog
+- **Description**
+    - OpenCog per se is a framework for AGI. OpenCog Prime is an architecture for robot and virtual embodied cognition that defines set of interacting components.
+- **History**
+    - 2008 - Founded via grant from Singularity Institute for AI and a donation from Novamente.
+- **Companies**
+    - [Cisco - Networking, Cloud, and Cybersecurity Solutions](https://www.cisco.com/?CCID=cc000894&OID=0&DTID=pseggl000015&POSITION=SEM&COUNTRY_SITE=us&CAMPAIGN=IA-12&CREATIVE=US_SEM_GEN_Pure-Brand-Cisco_EM_B_NOA-GGL_0_0_Observation_ENG-Cisco&REFERRING_SITE=Google&KEYWORD=cisco&KWID=p52232430495&_bk=cisco&_bt=423639483322&_bm=e&_bn=g&_bg=98424308557&gclid=CjwKCAjw9LSSBhBsEiwAKtf0n-Yz3zqlnU6Ddre0EwGp40o31oliPpS9jL7CkplfORyeGVok4Na3thoCTBAQAvD_BwE&gclsrc=aw.ds)
+    - [Huawei United States](https://www.huawei.com/us/)
+    - [home - Hanson Robotics](https://www.hansonrobotics.com/) 
+- **Labs**
+    - [OpenCog Foundation | Building better minds together](https://opencog.org/) 
+- **People**
+    - [www.linkedin.com/in/alex van der peet 488a9b48/](https://www.linkedin.com/in/alex-van-der-peet-488a9b48/)
+    - [Linas VEPSTAS Home Page](http://linas.org/)
+    - [www.linkedin.com/in/shujing ke 38b27179/](https://www.linkedin.com/in/shujing-ke-38b27179/) 
+- **Ways for getting involved**
+    - [OpenCog Foundation  |  Donate](https://opencog.org/donate/) , Donate
+    - [opencog - Google Groups](https://groups.google.com/g/opencog), Join mailing list 
+    - [OpenCog · GitHub](https://github.com/opencog/), Contribute 
+    - [OpenCog](https://wiki.opencog.org/w/The_Open_Cognition_Project), On this side several ways how to get involved can be found 
+- **Comments**
+    - [The Team - OpenCog](https://wiki.opencog.org/w/The_Team), List of people 
+## Data
+### Open Data
+- **Description**
+    - Data which is openly accessible, exploitable and shared by anyone for any purpose.
+- **History**
+    - 1942 - Robert King Merton explained importance that result of research should be open
+    - 1995 - Term open data appeared first time
+    - 2007 - While meeting of thirty thinkers aim to define concept of open public data 
+    - 2009 - Nobel prize to Elinor Orstrom who showed the specificity of information commons
+- **Companies**
+    - [GitHub: Where the world builds software · GitHub](https://github.com/)
+    - [Alphabet](https://abc.xyz/)
+    - [Kaggle: Your Machine Learning and Data Science Community](https://www.kaggle.com/)
+    - [dev.socrata.com/](https://dev.socrata.com/) 
+- **Labs**
+    - [Just a moment...](http://linkedscience.org/data)
+    - [www.systemanaturae.org/](https://www.systemanaturae.org/)
+    - [The Dataverse Project - Dataverse.org](https://dataverse.org/)
+    - [The Human Genome Project](https://www.genome.gov/human-genome-project)
+    - [Open Government - Data.gov](https://data.gov/open-gov/) 
+- **People**
+    - [Max Roser – Researcher](https://www.maxroser.com/), Founder Our World in Data
+    - [Jimmy Wales | Free knowledge for free minds](https://jimmywales.com/), One of the founder Wikipedia's
+    - [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) 
+- **Ways for getting involved**
+    - [Where can you contribute to open data? Yes, you! – Lost Boy](https://blog.ldodds.com/2017/05/25/where-can-you-contribute-to-open-data-yes-you/), Contribute to one of the open data projects
+    - [Starting an Open Data Initiative | Data](http://opendatatoolkit.worldbank.org/en/starting.html), Start a own open data initiative 
+### Data Analysis
+- **Description**
+    - Process of inspecting, cleansing, transforming and modelling data with the goal of  useful information, informing conclusions and supporting decision-making. 
+- **History**
+    - C 18000 BCE - Humans using tally sticks for analyzing data
+    - C 2400 BCE - Invention of abacus
+    - 300 BC - 48 AD - Library of Alexandria
+    - C 100 - 200 AD - Use of Antikythera mechanism
+    - 1663 - First experiment in statistical data analysis
+    - 1865 - Term "business intelligence" is termed
+    - 1880 - Hollerith Tabulating Machine
+    - 1926 - Method for storing information magnetically on tape gets innovated
+    - 1958 - New definition of business intelligence
+    - 1965 - US plans worlds first data center
+    - 1970 - First time used the term "Big Data"
+    - 1999 - First use of term "IoT"
+- **Companies**
+    - [www.itechart.com/solutions/big data/?utm source=softwaretestinghelp&utm medium=referral&utm campaign=sth analytics](https://www.itechart.com/solutions/big-data/?utm_source=softwaretestinghelp&utm_medium=referral&utm_campaign=sth_analytics)
+    - [dhiva.ai/](https://dhiva.ai/)
+    - [Databricks - The Data and AI Company](https://databricks.com/)
+    - [Just a moment...](https://craft.co/)
+    - [Empowered Data Solutions - Data Science | Civis Analytics](https://www.civisanalytics.com/) 
+- **Labs**
+    - [Quantitative and Qualitative Data Analysis Lab - Graduate School of Education - University at Buffalo](https://ed.buffalo.edu/dal)
+    - [Data Analytics Lab](http://www.da.inf.ethz.ch/)
+    - [     Data Analysis Lab -  Fort Hays State University](https://www.fhsu.edu/psych/data-analysis-lab)
+    - [Data Analysis  |  Chem Lab](https://chemlab.truman.edu/data-analysis/)
+    - [DATA SCIENCE LAB – Led by Dr. Viktor K. Prasanna](https://sites.usc.edu/dslab/) 
+- **People**
+    - [News [D. Kriesel]](https://www.dkriesel.com/) , David Kriesel - creator of [www.youtube.com/watch?v= YpwsdRKt8Q](https://www.youtube.com/watch?v=-YpwsdRKt8Q)
+    - [Christopher Wylie - Wikipedia](https://en.wikipedia.org/wiki/Christopher_Wylie), Christoper Wylie - Author of [Mindf*ck: Cambridge Analytica and the Plot to Break America: Wylie, Christopher: 9781984854636: Amazon.com: Books](https://www.amazon.com/Mindf-Cambridge-Analytica-Break-America/dp/1984854631) 
+    - [About Abbott Analytics - Abbott Analytics: Data Mining Services in San Diego](http://www.abbottanalytics.com/data-mining-consulting-services-about.php)
+    - [www.linkedin.com/in/mjaberry/](https://www.linkedin.com/in/mjaberry/)
+    - [Home - Tom Davenport](https://www.tomdavenport.com/) 
+- **Ways for getting involved**
+    - [www.youtube.com/watch?v= YpwsdRKt8Q](https://www.youtube.com/watch?v=-YpwsdRKt8Q), Try to find a project like him and collect data over periods of time which you will analyze
+    - Earn a bachelor's degree in a field with an emphasis on statistical and analytical skills, such as math or computer science.
+### Datasets
+- **Description**
+    - Collection of data.
+- **History**
+    - 1936 - First data set "Iris data set"
+- **Companies**
+    - [Enigma | Data and intelligence on every small business](https://enigma.com/) 
+    - [Access to this page has been denied.](https://www.crunchbase.com/)
+    - [Access to this page has been denied.](https://foursquare.com/) 
+    - [betterdata: AI Synthetic Data Generation](https://www.betterdata.ai/)
+    - [Synthetic Data Generation | Datomize](https://www.datomize.com/) 
+- **Labs**
+    - [AI Lab Project: Synthetic Data Generator | Microsoft AI](https://www.microsoft.com/en-us/ai/ai-lab-synthetic-data-showcase) 
+    - [War in Ukraine - Our World in Data](https://ourworldindata.org/ukraine-war)
+    - [Data Lab | World Resources Institute](https://www.wri.org/data/data-lab)
+    - [Datasets | ORNL](https://www.ornl.gov/group/multimodal-sensor-analytics/datasets) 
+    - [About Data Labs - Pew Research Center Methods | Pew Research Center](https://www.pewresearch.org/methods/about-data-labs/) 
+- **People**
+    - [www.linkedin.com/in/fei fei li 4541247/](https://www.linkedin.com/in/fei-fei-li-4541247/), Fei-Fei Li - inventor of ImageNet
+    - [Yann LeCun's Home Page](http://yann.lecun.com/), Yann LeCun co creator of the final MNIST 
+- **Ways for getting involved**
+    - [ NetMob 2019, 8-10 July Mathematical Institute, Oxford University, Oxford, UK](http://netmob.org/), Join a community 
+    - [GitHub - awesomedata/awesome-public-datasets: A topic-centric list of HQ open datasets.](https://github.com/awesomedata/awesome-public-datasets), Play around with datasets 
+    - Create your own dataset and train a machine learning model on it (for example you with happy and sad face)
+    - [Unity Computer Vision | Unity](https://unity.com/products/computer-vision), Create your own synthetic data with Unity 
+### Data Mining
+- **Description**
+    - Extracting and discovering patterns in large data sets.
+- **History**
+    - 1960s - Economists used terms like data fishing or data dredging to refer what they considered bad practice of analyzing data without an a-priori hypothesis.
+    - 1990 - Term data mining appeared in database community generally with positive connotations.
+    - 1996 - Usama Fayyad launched journal by Kluwer called Data Mining and Knowledge Discovery
+- **Companies**
+    - [WCKD RZR - Unlocking the potential of the world’s data](https://www.wckdrzr.com/)
+    - [The New Era of Shopper Analytics | Dayta AI](https://www.dayta.ai/)
+    - [Canner - Data Access Workflow Simplified.](https://cannerdata.com/)
+    - [EMERGEiQ – Data Science as a Service](https://emergeiq.co/)
+    - [Real-time Cannabis Pricing & Sales Analytics & Intelligence - Hoodie Analytics](https://www.hoodieanalytics.com/) 
+- **Labs**
+    - [Data Mining Lab – DATA SCIENCE PROGRAM](https://sciences.ucf.edu/statistics/dms/data-mining-lab/)
+    - [www.cs.utexas.edu/users/dml/](https://www.cs.utexas.edu/users/dml/)
+    - [BYU Data Mining Lab](http://dml.cs.byu.edu/) 
+    - [Data Mining Research at The Ohio State University](http://web.cse.ohio-state.edu/dmrl/)
+    - [BYU Data Mining Lab](http://dml.cs.byu.edu/) 
+- **People**
+    - [Hans-Peter Kriegel - Lehr- und Forschungseinheit für Datenbanksysteme - LMU Munich](https://www.dbs.ifi.lmu.de/cms/personen/professoren/kriegel/index.html)
+    - [Christos Faloutsos](https://www.cs.cmu.edu/~christos/)
+    - [Jiawei Han](https://hanj.cs.illinois.edu/)
+    - [Johannes Gehrke's Homepage](http://www.cs.cornell.edu/johannes/)
+    - [Hector Garcia-Molina](http://infolab.stanford.edu/people/hector.html) 
+- **Ways for getting involved**
+    - [Main Page | Data Mining and Machine Learning](https://dataminingbook.info/), Read
+    - [Learning From Data (Introductory Machine Learning) | edX](https://www.edx.org/course/learning-from-data-introductory-machine-learning), Take courses 
+    - [Data Mining Gruppen in Deutschland | Meetup](https://www.meetup.com/de-DE/topics/data-mining/), Join groups
+    - [13 Interesting Data Mining Projects in 2022 (for Students) | FavTutor](https://favtutor.com/blogs/data-mining-projects), Projects 
+- **Comments**
+    - [  Where to start with Data Mining and Data Science - KDnuggets](https://www.kdnuggets.com/faq/learning-data-mining-data-science.html), Summary about how to get into data mining 
+## Education
+### ML Hackathons
+- Description
+    - People work in a sprint torwards a ML related problem to solve it.
+- Ways for getting involved
+    - Kaggle [Kaggle Competitions](https://www.kaggle.com/competitions?aliasId=NDM5ufEfFerkmCKiY)
+    - CodaLab [CodaLab - Competitions](https://competitions.codalab.org/competitions/?aliasId=kHPmZBShJdQhAeEQr)
+    - Datahack [DataHack : Biggest Data hackathon platform for Data Scientists](https://datahack.analyticsvidhya.com/?aliasId=hn5H93KZzZ25J2Wv8)
+    - Hackerearth [Programming Challenges, Coding competitions, and Hackathons | HackerEarth](https://www.hackerearth.com/de/challenges/?aliasId=eKfdmTv4AzpNA5Mkm)
+    - Provide ML hackathon with physical participation
+### AI learning
+- **Description**
+    - The field tries to improve learning through using AI in for example intelligent tutoring systems, intelligent learning environments, adaptive hypertext systems, and computer supported collaborative learning systems.
+- **History**
+    - 1980s - Designers transformed expert system design to develop systems which fullfil educational functions
+    - 1990s - Emergence of second generation experts systems
+- **Companies**
+    - [Knewton - Achievement Within Reach](https://www.knewton.com/)
+    - [Cognii - Artificial Intelligence for Education and Training](https://www.cognii.com/)
+    - [Nuance - Conversational AI for Healthcare and Customer Engagement | Nuance](https://www.nuance.com/index.html)
+    - [Augmented Reality (AR) | Blippar](https://www.blippar.com/)
+    - [CENTURY | Online Learning | English, Maths and Science](https://www.century.tech/) 
+- **Labs**
+    - [AI Research Initiative | Rafik Hariri Institute for Computing and Computational Science & Engineering](https://www.bu.edu/hic/centers-initiatives-labs/air/)
+    - [ai4stem](http://ai4stem.org/)
+    - [RAISE - research](https://raise.mit.edu/research.html) 
+    - [ETS AI Labs: ETS R&D](https://www.ets.org/research/ai-labs)
+    - [Artificial Intelligence Laboratory | Eller College of Management](https://eller.arizona.edu/departments-research/centers-labs/artificial-intelligence) 
+- **People**
+    - [Hsinchun Chen | Eller College of Management](https://eller.arizona.edu/people/hsinchun-chen)
+    - [Xiaoming Zhai, Ph.D. | Directory | College of Education](https://people.coe.uga.edu/xiaoming-zhai/)
+    - [Sheng Li's Homepage](http://cobweb.cs.uga.edu/~shengli/) 
+    - [www.linkedin.com/in/sahrishpanjwani/](https://www.linkedin.com/in/sahrishpanjwani/)
+    - [Mark W. Patton | Eller College of Management](https://eller.arizona.edu/people/mark-w-patton) 
+- **Ways for getting involved**
+    - [Artificial Intelligence in education | ISTE](https://www.iste.org/areas-of-focus/AI-in-education), Join a group
+    - [Artificial Intelligence in Education: A Review | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9069875), Read an review of AI in education 
+    - [Internship and Fellowship Programs: ETS R&D](https://www.ets.org/research/internship-fellowship/), Internship, Fellowship
+- **Comments**
+    - [Artificial intelligence and education - EduTech Wiki](http://edutechwiki.unige.ch/en/Artificial_intelligence_and_education#:~:text=Cited%20with%20footnotes-,1%20Definition,intelligence%20research%2C%20learning%20and%20education.) 
+### Progress studies
+- **Description**
+    - Is the study of the causes of civilizational progress.
+- **History**
+    - 2019 - Coining of term progress studies
+- **Labs**
+    - [Home - PLOS](https://plos.org/)
+    - [Center for Urban Science and Progress  | NYU Tandon School of Engineering](https://engineering.nyu.edu/research-innovation/centers/center-urban-science-and-progress) 
+    - [AGI – Astera](https://astera.org/agi/) 
+    - [New Science](https://newscience.org/) 
+- **People**
+    - [Jason Crawford](https://jasoncrawford.org/) 
+    - [Home · Patrick Collison](https://patrickcollison.com/)
+    - [Marginal REVOLUTION - Small Steps Toward A Much Better World](https://marginalrevolution.com/) 
+    - [twitter.com/krisgulati](https://twitter.com/krisgulati) 
+    - [twitter.com/jedmccaleb?lang=en](https://twitter.com/jedmccaleb?lang=en) 
+- **Ways for getting involved**
+    - [Progress Studies – A blog about the causes and consequences of Progress, Economic Growth, Technological Change, and Innovation](https://progressstudi.es/), Help 
+    - [Progress Studies for Aspiring Young Scholars](https://progressstudies.school/), Join a program 
+    - [AGI – Astera](https://astera.org/agi/), Join a AGI progress team
