@@ -1,245 +1,2567 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://openblog-projects.github.io/openblog.ai/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openblog-projects.github.io/openblog.ai/" rel="alternate" type="text/html" /><updated>2022-03-24T12:14:36-05:00</updated><id>https://openblog-projects.github.io/openblog.ai/feed.xml</id><title type="html">openblog</title><subtitle>A blog about AI</subtitle><entry><title type="html">Testpage Title 2</title><link href="https://openblog-projects.github.io/openblog.ai/markdown/testtag/2022/03/22/test2.html" rel="alternate" type="text/html" title="Testpage Title 2" /><published>2022-03-22T00:00:00-05:00</published><updated>2022-03-22T00:00:00-05:00</updated><id>https://openblog-projects.github.io/openblog.ai/markdown/testtag/2022/03/22/test2</id><content type="html" xml:base="https://openblog-projects.github.io/openblog.ai/markdown/testtag/2022/03/22/test2.html"><![CDATA[<h1 id="example-markdown-post">Example Markdown Post</h1>
-
-<h2 id="basic-setup">Basic setup</h2>
-<p>TESTSITE 2</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-filename.md</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">filename</code> is whatever file name you choose, to remind yourself what this post is about. <code class="language-plaintext highlighter-rouge">.md</code> is the file extension for markdown files.</p>
-
-<p>The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “<em>level 1 heading</em>” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line <code class="language-plaintext highlighter-rouge">## File names</code> above.</p>
-
-<h2 id="basic-formatting">Basic formatting</h2>
-
-<p>You can use <em>italics</em>, <strong>bold</strong>, <code class="language-plaintext highlighter-rouge">code font text</code>, and create <a href="https://www.markdownguide.org/cheat-sheet/">links</a>. Here’s a footnote <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. Here’s a horizontal rule:</p>
-
-<hr />
-<hr />
-
-<h2 id="lists">Lists</h2>
-
-<p>Here’s a list:</p>
-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://neuralbits.ai/neuralbits.ai/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neuralbits.ai/neuralbits.ai/" rel="alternate" type="text/html" /><updated>2022-04-08T20:04:39-05:00</updated><id>https://neuralbits.ai/neuralbits.ai/feed.xml</id><title type="html">openblog</title><subtitle>A blog about AI</subtitle><entry><title type="html">AGI Techtree</title><link href="https://neuralbits.ai/neuralbits.ai/fastpages/jupyter/2022/04/22/A-G-I-Techtree.html" rel="alternate" type="text/html" title="AGI Techtree" /><published>2022-04-22T00:00:00-05:00</published><updated>2022-04-22T00:00:00-05:00</updated><id>https://neuralbits.ai/neuralbits.ai/fastpages/jupyter/2022/04/22/A-G-I-Techtree</id><content type="html" xml:base="https://neuralbits.ai/neuralbits.ai/fastpages/jupyter/2022/04/22/A-G-I-Techtree.html"><![CDATA[<h2 id="methods">Methods</h2>
+<h3 id="reinforcement-learning">Reinforcement learning</h3>
 <ul>
-  <li>item 1</li>
-  <li>item 2</li>
-</ul>
-
-<p>And a numbered list:</p>
-
-<ol>
-  <li>item 1</li>
-  <li>item 2</li>
-</ol>
-
-<h2 id="boxes-and-stuff">Boxes and stuff</h2>
-
-<blockquote>
-  <p>This is a quotation</p>
-</blockquote>
-
-<div class="Toast Toast--warning googoo">
-   <span class="Toast-icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg></span>
-   <span class="Toast-content">You can include alert boxes</span>
-</div>
-
-<p>…and…</p>
-
-<div class="Toast">
-   <span class="Toast-icon"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg></span>
-   <span class="Toast-content">You can include info boxes</span>
-</div>
-
-<h2 id="images">Images</h2>
-
-<p><img src="/openblog.ai/images/logo.png" alt="" title="fast.ai's logo" /></p>
-
-<h2 id="code">Code</h2>
-
-<p>You can format text and code per usual</p>
-
-<p>General preformatted text:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Do a thing
-do_thing()
-</code></pre></div></div>
-
-<p>Python code and output:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Prints '2'
-</span><span class="k">print</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2
-</code></pre></div></div>
-
-<p>Formatting text as shell commands:</p>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"hello world"</span>
-./some_script.sh <span class="nt">--option</span> <span class="s2">"value"</span>
-wget https://example.com/cat_photo1.png
-</code></pre></div></div>
-
-<p>Formatting text as YAML:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">key</span><span class="pi">:</span> <span class="s">value</span>
-<span class="pi">-</span> <span class="na">another_key</span><span class="pi">:</span> <span class="s2">"</span><span class="s">another</span><span class="nv"> </span><span class="s">value"</span>
-</code></pre></div></div>
-
-<h2 id="tables">Tables</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>A thing</td>
-      <td>Another thing</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="tweetcards">Tweetcards</h2>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Altair 4.0 is released! <a href="https://t.co/PCyrIOTcvv">https://t.co/PCyrIOTcvv</a><br />Try it with:<br /><br />  pip install -U altair<br /><br />The full list of changes is at <a href="https://t.co/roXmzcsT58">https://t.co/roXmzcsT58</a> ...read on for some highlights. <a href="https://t.co/vWJ0ZveKbZ">pic.twitter.com/vWJ0ZveKbZ</a></p>&mdash; Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw">December 11, 2019</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
-<h2 id="footnotes">Footnotes</h2>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>This is the footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name></name></author><category term="markdown" /><category term="testTag" /><summary type="html"><![CDATA[Testpage description]]></summary></entry><entry><title type="html">Testpage Title</title><link href="https://openblog-projects.github.io/openblog.ai/markdown/testtag/2022/03/15/test.html" rel="alternate" type="text/html" title="Testpage Title" /><published>2022-03-15T00:00:00-05:00</published><updated>2022-03-15T00:00:00-05:00</updated><id>https://openblog-projects.github.io/openblog.ai/markdown/testtag/2022/03/15/test</id><content type="html" xml:base="https://openblog-projects.github.io/openblog.ai/markdown/testtag/2022/03/15/test.html"><![CDATA[<h1 id="example-markdown-post">Example Markdown Post</h1>
-
-<h2 id="basic-setup">Basic setup</h2>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-filename.md</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">filename</code> is whatever file name you choose, to remind yourself what this post is about. <code class="language-plaintext highlighter-rouge">.md</code> is the file extension for markdown files.</p>
-
-<p>The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “<em>level 1 heading</em>” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line <code class="language-plaintext highlighter-rouge">## File names</code> above.</p>
-
-<h2 id="basic-formatting">Basic formatting</h2>
-
-<p>You can use <em>italics</em>, <strong>bold</strong>, <code class="language-plaintext highlighter-rouge">code font text</code>, and create <a href="https://www.markdownguide.org/cheat-sheet/">links</a>. Here’s a footnote <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. Here’s a horizontal rule:</p>
-
-<hr />
-<hr />
-
-<h2 id="lists">Lists</h2>
-
-<p>Here’s a list:</p>
-
-<ul>
-  <li>item 1</li>
-  <li>item 2</li>
-</ul>
-
-<p>And a numbered list:</p>
-
-<ol>
-  <li>item 1</li>
-  <li>item 2</li>
-</ol>
-
-<h2 id="boxes-and-stuff">Boxes and stuff</h2>
-
-<blockquote>
-  <p>This is a quotation</p>
-</blockquote>
-
-<div class="Toast Toast--warning googoo">
-   <span class="Toast-icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg></span>
-   <span class="Toast-content">You can include alert boxes</span>
-</div>
-
-<p>…and…</p>
-
-<div class="Toast">
-   <span class="Toast-icon"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg></span>
-   <span class="Toast-content">You can include info boxes</span>
-</div>
-
-<h2 id="images">Images</h2>
-
-<p><img src="/openblog.ai/images/logo.png" alt="" title="fast.ai's logo" /></p>
-
-<h2 id="code">Code</h2>
-
-<p>You can format text and code per usual</p>
-
-<p>General preformatted text:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Do a thing
-do_thing()
-</code></pre></div></div>
-
-<p>Python code and output:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Prints '2'
-</span><span class="k">print</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2
-</code></pre></div></div>
-
-<p>Formatting text as shell commands:</p>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"hello world"</span>
-./some_script.sh <span class="nt">--option</span> <span class="s2">"value"</span>
-wget https://example.com/cat_photo1.png
-</code></pre></div></div>
-
-<p>Formatting text as YAML:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">key</span><span class="pi">:</span> <span class="s">value</span>
-<span class="pi">-</span> <span class="na">another_key</span><span class="pi">:</span> <span class="s2">"</span><span class="s">another</span><span class="nv"> </span><span class="s">value"</span>
-</code></pre></div></div>
-
-<h2 id="tables">Tables</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>A thing</td>
-      <td>Another thing</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="tweetcards">Tweetcards</h2>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Altair 4.0 is released! <a href="https://t.co/PCyrIOTcvv">https://t.co/PCyrIOTcvv</a><br />Try it with:<br /><br />  pip install -U altair<br /><br />The full list of changes is at <a href="https://t.co/roXmzcsT58">https://t.co/roXmzcsT58</a> ...read on for some highlights. <a href="https://t.co/vWJ0ZveKbZ">pic.twitter.com/vWJ0ZveKbZ</a></p>&mdash; Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw">December 11, 2019</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
-<h2 id="footnotes">Footnotes</h2>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>This is the footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name></name></author><category term="markdown" /><category term="testTag" /><summary type="html"><![CDATA[Testpage description]]></summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://openblog-projects.github.io/openblog.ai/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://openblog-projects.github.io/openblog.ai/jupyter/2020/02/20/test</id><content type="html" xml:base="https://openblog-projects.github.io/openblog.ai/jupyter/2020/02/20/test.html"><![CDATA[<!--
+  <li><strong>Description</strong>
+    <ul>
+      <li>Concerned with how intelligent agents ought to take actions in an environment  in order to maximize the notion of cumulative reward.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1911 - Thorndike defined trial and error as the “Law of Effect” with feeling of from a given situation</li>
+      <li>1954 - Minsky postulated use SNARCs (Stochastic Neural-Analogue Reinforcement Calculators)</li>
+      <li>1961 - Minsky addressed “Credit Assignment Problem”</li>
+      <li>1955 - Research in computational trial and error information to update connection weights</li>
+      <li>1960 - 1962 - Adapted to supervised learning by using error information to update connection weights</li>
+      <li>1963 - STELLA system</li>
+      <li>1977 - Learning from a teacher</li>
+      <li>1992 - Implementation in board games</li>
+      <li>2010s - Implementation in computer games</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[SoftBank Robotics</td>
+              <td>Humanoid and programmable robots](https://www.softbankrobotics.com/emea/en)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Boston Dynamics</td>
+              <td>Changing Your Idea of What Robots Can Do](https://www.bostondynamics.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://automata.tech/products/automata-labs/?utm_source=adwords&amp;utm_term=external%20robotics&amp;utm_campaign=AWW+%7C+Lab+Automation+%7C+Generic&amp;utm_medium=ppc&amp;hsa_mt=b&amp;hsa_ad=567495087599&amp;hsa_net=adwords&amp;hsa_src=g&amp;hsa_kw=external%20robotics&amp;hsa_tgt=kwd-1588379704061&amp;hsa_cam=15495004460&amp;hsa_acc=4064841676&amp;hsa_ver=3&amp;hsa_grp=129405605894&amp;gclid=CjwKCAjwrqqSBhBbEiwAlQeqGgXeNpEd-mhpVUqDb-nImU9XiQicX-qFrvuh7QBS7fcmaS5z_ztoARoC5LgQAvD_BwE">Lab Automation - Automata Labs - Automata</a></li>
+      <li><a href="https://webshop.robotics.abb.com/us/">ABB Robotics</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[KUKA SmartProduction</td>
+              <td>KUKA AG](https://www.kuka.com/en-us/future-production/industrie-4-0/industrie-4-0-smartproduction?sc_camp=B0AD2317B83C486B8944E1432344D0F2)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="http://gureckislab.org/courses/fall19/labincp/labs/lab-rl-pt1.html">Reinforcement Learning (Lab)</a></li>
+      <li><a href="http://rlai.ualberta.ca/">        RLAI    </a></li>
+      <li><a href="https://www.ucsdarclab.com/">UCSD Advanced Robotics and Controls Lab</a></li>
+      <li><a href="https://rlrl.net.technion.ac.il/">rlrl.net.technion.ac.il/</a></li>
+      <li><a href="https://www.universiteitleiden.nl/en/science/computer-science/artificial-intelligence--machine-learning/reinforcement-learning-lab">Reinforcement learning - Leiden University</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.davidsilver.uk/">Home - David Silver</a></li>
+      <li><a href="https://www.littmania.com/">Littmania</a></li>
+      <li><a href="https://www.cs.toronto.edu/~vmnih/">Vlad Mnih</a></li>
+      <li><a href="http://www.robertbabuska.com/">Robert Babuska – Robert Babuska’s professional website</a></li>
+      <li><a href="http://joschu.net/">John Schulman’s Homepage</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>Implement reinforcement learning in your favorite game</li>
+      <li><a href="https://aws.amazon.com/de/about-aws/whats-new/2018/11/introducing-aws-deepracer/">Einführung in AWS DeepRacer</a> , Learn reinforcement learning with an physical car</li>
+      <li><a href="https://machinelearningknowledge.ai/reinforcement-learning-environments-platforms-you-did-not-know-exist/">16 Reinforcement Learning Environments and Platforms You Did Not Know Exist - MLK - Machine Learning Knowledge</a>  , Try reinforcement learning in one of this environments</li>
+      <li><a href="https://www.davidsilver.uk/teaching/">Teaching - David Silver</a>, Take the course from David Silver</li>
+      <li><a href="https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/ref=asc_df_0262039249/?tag=hyprod-20&amp;linkCode=df0&amp;hvadid=312280575053&amp;hvpos=&amp;hvnetw=g&amp;hvrand=2351796173929465573&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=1013581&amp;hvtargid=pla-458692329113&amp;psc=1">Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series): Sutton, Richard S., Barto, Andrew G.: 9780262039246: Amazon.com: Books</a>, Read</li>
+      <li><a href="https://rfchallenge.mit.edu/">RF Challenge | RF Challenge - AI Accelerator</a>, Join competitions
+        <h3 id="deep-learning">Deep learning</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Class of machine learning algorithms which uses multiple layers to progressively extract higher-level features from the raw input.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1962 - In the book “Principles of Neurodynamics: Perceptrons and the Theory of Brain Mechanisms” Frank Rosenblatt described all basics of deep learning from today.</li>
+      <li>1967 - Alexey Ivakhnenko and Lapa published first learning algorithm for deep learning</li>
+      <li>1971 - Paper describes deep network with eight layers</li>
+      <li>1980 - Kunihiko Fukushima introduced new deep learning architectures</li>
+      <li>1986 - Term Depp Learning was introduced</li>
+      <li>1989 - Yann LeCun applied backpropagation to a deep neural network</li>
+      <li>1997 - Schmidhuber and Hochreiter came up with LSTMs</li>
+      <li>1998 - Success in speaker recognition</li>
+      <li>2009 - Nvidia trained neural networks with GPUs and they called it the big bang of deep learning</li>
+      <li>2011 - Superhuman performance in visual</li>
+      <li>2012 - Deep learning system wins ImageNet competition. “deep learning revolution”</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Deep Instinct</td>
+              <td>Deep Learning AI Cybersecurity Platform](https://www.deepinstinct.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Glean</td>
+              <td>Work assistant &amp; knowledge management platform](https://www.glean.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.neuralware.com/">Welcome to NeuralWare</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Wireless Technology &amp; Innovation</td>
+              <td>Mobile Technology</td>
+              <td>Qualcomm](https://www.qualcomm.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[PathAI</td>
+              <td>Pathology Transformed](https://www.pathai.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="http://machinelearning.mit.edu/">Machine Learning at MIT</a></li>
+      <li><a href="http://mdlg.ai/">Melbourne Deep Learning Group</a></li>
+      <li><a href="http://learning.cs.toronto.edu/">UofT Machine Learning</a></li>
+      <li><a href="https://research.cs.aalto.fi/bayes/">Deep learning</a></li>
+      <li><a href="https://machinelearning.cis.cornell.edu/">Machine Learning at Cornell</a>x</li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="http://vikasverma1077.github.io/">Vikas Verma </a></li>
+      <li><a href="http://www.cs.toronto.edu/~duvenaud/">David Duvenaud</a></li>
+      <li><a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a></li>
+      <li><a href="https://twitter.com/hochreitersepp?lang=en">twitter.com/hochreitersepp?lang=en</a></li>
+      <li><a href="https://people.idsia.ch/~juergen/">people.idsia.ch/~juergen/</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="http://www.svdlg.com/">WELCOME TO The Deep Learning Group - WE LOVE DEEP LEARNING</a>, Join a group</li>
+      <li><a href="https://books.google.com/books?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;dq=deep+learning&amp;hl=en&amp;newbks=1&amp;newbks_redir=0&amp;sa=X&amp;ved=2ahUKEwigrPaM4P32AhWjoFsKHSO7CbgQ6AF6BAgCEAI#v=onepage&amp;q=deep%20learning&amp;f=false">Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville - Google Books</a> &amp; <a href="https://books.google.com/books?id=b06qDwAAQBAJ&amp;printsec=frontcover&amp;dq=deep+learning&amp;hl=en&amp;newbks=1&amp;newbks_redir=0&amp;sa=X&amp;ved=2ahUKEwigrPaM4P32AhWjoFsKHSO7CbgQ6AF6BAgDEAI#v=onepage&amp;q=deep%20learning&amp;f=false">Deep Learning - John D. Kelleher - Google Books</a>m, Read</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[20+ Active machine learning and data science communities</td>
+              <td>Coder One](https://www.gocoder.one/blog/active-machine-learning-communities), Join a community</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://hackr.io/blog/best-deep-learning-projects">10 Best Deep Learning Projects</a>, Start with an project</li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li><a href="https://project-awesome.org/guillaume-chevalier/awesome-deep-learning-resources">    Awesome Deep Learning Resources  | Curated list of awesome lists | Project-Awesome.org</a>
+        <h2 id="compute">Compute</h2>
+        <h3 id="optical-computing">Optical computing</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Uses light waves produced by lasers or incoherent sources for data processing, data storage or data communication for computing.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1978 - First electro hybrids</li>
+      <li>1994 - M Reck’s universal optical processor</li>
+      <li>2004 - Large scale integrated photonics becomes possible</li>
+      <li>2012 - First programmable nanophotonic processor</li>
+      <li>2015 - Programmable nanophotonic processor preprint on arXiv</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://lightmatter.co/">Lightmatter - The photonic (super)computer company.</a></li>
+      <li><a href="https://www.cognifiber.com/">Cognifiber – Photonic Computing – The Revolution of Information Technology</a></li>
+      <li><a href="https://optalysys.com/">Optalysys</a></li>
+      <li><a href="https://lighton.ai/">AI for all, everywhere. NLP Extreme scale AI usable through the Muse API</a></li>
+      <li><a href="https://www.luminous.com/">Luminous</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://optics.engin.umich.edu/">Optics &amp; Photonics Lab</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Quantum Photonics Laboratory</td>
+              <td>RLE at MIT](https://www.rle.mit.edu/qp/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://lightwave.ee.columbia.edu/">Lightwave Research Laboratory</a></li>
+      <li><a href="https://ntt-research.com/">Home</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Optics and Photonics</td>
+              <td>School of Electrical and Computer Engineering at the Georgia Institute of Technology](https://www.ece.gatech.edu/research/tigs/optics-and-photonics)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.shenyichen.org/">YICHEN SHEN</a></li>
+      <li><a href="https://cphenicie.github.io/list-of-AI-photonics-companies/">List of AI photonics companies - Christopher Phenicie</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Volker J. Sorger</td>
+              <td>School of Engineering &amp; Applied Science</td>
+              <td>The George Washington University](https://www.seas.gwu.edu/volker-j-sorger)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Guoqing MA</td>
+              <td>PhD Student</td>
+              <td>Bachelor of Engineering</td>
+              <td>Shanghai Institute of Optics and Fine Mechanics, CAS, Shanghai</td>
+              <td>Laboratory of Information Optics and Optoelectronic Technology, CAS](https://www.researchgate.net/profile/Guoqing-Ma-3)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Junjie YU</td>
+              <td>Ph.D</td>
+              <td>Shanghai Institute of Optics and Fine Mechanics, CAS, Shanghai</td>
+              <td>Lab of Information Optics and Optoelectronic Technology](https://www.researchgate.net/profile/Junjie-Yu-8)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://www.geeksforgeeks.org/introduction-of-optical-computing/">Introduction of Optical Computing - GeeksforGeeks</a>, Read intro in optical computing</li>
+      <li>Join one of the companies</li>
+      <li><a href="https://www.optica.org//en-us/opticalcomputing/">www.optica.org//en us/opticalcomputing/</a>, Look for incubators (this one is old)
+        <h3 id="cloud-computing">Cloud computing</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>On demand computing power without directive management of the computing source. Machine learning demands a lot of power which a single person with one computer is often not able to bring up.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1960 - Initial concepts of time sharing came up</li>
+      <li>1977 - Cloud symbol represents networks of computing equipment</li>
+      <li>1993 - Term cloud was used to refer to platforms for distributed computing</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[H2O AI Cloud</td>
+              <td>H2O.ai](https://h2o.ai/platform/ai-cloud/?aliasId=RPYGBr3CupEqjDZau)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://vast.ai/console/create/?aliasId=dscdk87aA9MmAgaFk">Vast.ai</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[GPU servers rental for deep learning</td>
+              <td>LeaderGPU](https://www.leadergpu.com/?aliasId=yuZYKCSgeK89QNujP)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[About</td>
+              <td>Lambda](https://lambdalabs.com/about?aliasId=rkXkW7t4qSsvvBiNd)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://console.paperspace.com/signup?R=ZKGRZB5?aliasId=qtzj9KR7XLtJ2iqK5">Paperspace Console</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="http://www.mccrc.org/?aliasId=zLrSKF3osxJBXhnXN">Microsoft Cloud Computing Research Centre</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Welcome</td>
+              <td>NSF Cloud &amp; Autonomic Computing Center (CAC)](https://nsfcac.org/?aliasId=YW3bNGjQM5Na32MCz)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[About</td>
+              <td>Princeton Research Computing](https://researchcomputing.princeton.edu/about?aliasId=odswcWpgC4CKqHcRj)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Research Laboratories</td>
+              <td>College of Engineering and Computing](https://cec.georgiasouthern.edu/research-initiatives/research-labs/?aliasId=WRAbq3pcBtY6E9apY)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="http://hpcclab.org/?aliasId=BxyQPvbZjjkY3gmjG">HPCC lab</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/dillonerb/?aliasId=mwqQjQHysfk4i8Lc4">www.linkedin.com/in/dillonerb/</a> Dillon Erb, CEO Paperspace</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[About</td>
+              <td>Enter the Singularity](https://entersingularity.wordpress.com/about/?aliasId=frvtguSwRENCmD3D3) Jakob Cannell, CEO Vast.ai</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.linkedin.com/in/sbalaban/?aliasId=ne22HEXXdAcExPWKN">www.linkedin.com/in/sbalaban/</a> Stephen Balaban, CEO Lambda</li>
+      <li><a href="https://www.linkedin.com/in/srisatishambati/?aliasId=hbsyvvnJAEtXXx76q">www.linkedin.com/in/srisatishambati/</a> Sri Ambati, CEO H2O</li>
+      <li><a href="https://www.linkedin.com/in/nicolaschaparro/?originalSubdomain=de?aliasId=kaZWEXZ2xZMFMnrEa">www.linkedin.com/in/nicolaschaparro/?originalSubdomain=de</a>,Nicolas Chaparro, CEO Genesis Cloud</li>
+      <li><a href="https://www.linkedin.com/in/vishnusubramanian/?aliasId=AjXWYM8xFqRjzKPL3">www.linkedin.com/in/vishnusubramanian/</a> Vishnu Subramanian, CEO Jarvislabs</li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Careersl</td>
+              <td>Vast.ai](https://vast.ai/gesys_gpupro/?aliasId=zgtEfq2FCv6SeCtk5) is hiring CUDA/C++ programmers</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://qwasar.io/tech-talent-programs/devops-and-cloud-engineer-program/?aliasId=zAXYhcWwMgE8bhRkk">Elite Cloud Engineer Program</a> Cloud computing bootcamp</li>
+      <li><a href="https://vast.ai/console/host/setup/?aliasId=moJwb4KQmereqTvqm">Vast.ai</a> host your computer GPU power
+        <h3 id="dna-computing">DNA computing</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Information is represented and gets computed this way by using the genetic alphabet ACGT.  Is mostly used for memory storage.m</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1994 - Leonard Adleman solved first algorithmic problem with DNA computing</li>
+      <li>1995 - Eric Baum proposes DNA computing as memory system</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>CATALOG <a href="https://www.catalogdna.com/?aliasId=ALREpkv89on7vBcvK">CATALOG</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Evonetix [Home - Evonetix Synthesis Platform</td>
+              <td>Our mission</td>
+              <td>](https://www.evonetix.com/?aliasId=2GYHLjKg4DsLWadEb)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Molecular Assemblies [Molecular Assemblies</td>
+              <td>The Future Is In Our DNA](https://molecularassemblies.com/?aliasId=bQuZXArxf2ESJji2C)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>TWIST Bioscience [Twist Bioscience</td>
+              <td>We lead innovation in DNA synthesis](https://www.twistbioscience.com/?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=PSR-GLBL-FY21-1808-MULTI-Branded&amp;adgroup=114820227303&amp;utm_term=twist%20bioscience&amp;utm_content=kwd-549673824205&amp;creative=494683539265&amp;device=c&amp;matchtype=e&amp;location=9031951&amp;gclid=CjwKCAjw_tWRBhAwEiwALxFPoRilTgDvjpMh7IphU1CBKR1BZyB-4wP35nYU9zWAo1C7CB5EibxPKhoCOdoQAvD_BwE?aliasId=9Yq2d6ob8sXyEwdmg)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Helix Works <a href="https://helix.works/?aliasId=RDmnA52ur3DCN9HrR">Helixworks Technologies, Ltd.</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="http://qianlab.caltech.edu/index.html?aliasId=oKfcpKkP64jJuoDDj">The Qian Lab - Caltech - Home</a></li>
+      <li>Center for Open Innovation in Connected Health <a href="https://www.copicoh.uni-luebeck.de/en/research/projects/dna-computing.html?aliasId=AKfJwQSQ2wT9okhTP">DNA Computing: COPICOH</a></li>
+      <li>Hilbert lab <a href="http://hilbertlab.org/?aliasId=5Zt9nBcp8gWzPjYhT">Welcome to the Hilbert Lab - Hilbert Lab</a></li>
+      <li>Seelig lab <a href="https://www.seeliglab.org/?aliasId=mBBgE9DLwY7HQ32Wt">Home</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Max Planck Institute for Molecular Genetics [Home</td>
+              <td>Max Planck Institute for Molecular Genetics](https://www.molgen.mpg.de/2168/en?aliasId=eymMMDBatkSNvQorP)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li>Thomas Hinze <a href="https://users.fmi.uni-jena.de/~hinze/index-en.html?aliasId=sNsrfwbugXgEFykK2">PD Dr.-Ing. habil. Thomas Hinze</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Lulu Qian [Lulu Qian</td>
+              <td>Biology and Biological Engineering](https://www.bbe.caltech.edu/people/lulu-qian?aliasId=oKi4RmBoSQ4HuMhSp)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Kevin Cherry <a href="https://www.linkedin.com/in/kevin-cherry-55153135/?aliasId=PbwiuySSjcHdoxkPn">www.linkedin.com/in/kevin cherry 55153135/</a></li>
+      <li>Leonard Adleman <a href="https://adleman.usc.edu/?aliasId=eu9P2ojyvZFK9Letc">Leonard Adleman – Department of Computer Science, Department of Molecular Biology</a></li>
+      <li>Erik Winfree <a href="https://www.dna.caltech.edu/~winfree/?aliasId=ic8dfba7sWuye32BJ">www.dna.caltech.edu/~winfree/</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>DNA computing tutorial<a href="https://www.youtube.com/watch?v=YBhWrHeIqDs?aliasId=4JPh8veSb7WWGskD6">www.youtube.com/watch?v=YBhWrHeIqDs</a></li>
+      <li>DNA computing library in development<a href="https://github.com/AkashGutha/D-Compute?aliasId=qGA8zKAZaddpdxPRt">GitHub - AkashGutha/D-Compute: Library to experiment with DNA Computing</a>
+        <h3 id="gpu-computing">GPU computing</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>General purpose computing on graphics processing units is the use of a graphics processing unit to perform computation in applications traditionally handled by the central processing unit. <a href="https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units?aliasId=GxFZmestWjLJWbHLo">General-purpose computing on graphics processing units - Wikipedia</a></li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1987 - Conways Game of Life became first example of general purpose computing</li>
+      <li>~2001 -  More popularity through programmable shaders and floating point support on graphics processors</li>
+      <li>2005 - First common scientific program runs faster on GPU’s</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>NVIDIA <a href="https://www.nvidia.com/en-us/?aliasId=pxeoQLauwvtmXmxru">Artificial Intelligence Computing Leadership from NVIDIA</a></li>
+      <li>AMD <a href="https://www.amd.com/en?aliasId=JE4wXkk6fmHhfyzMy">www.amd.com/en</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Intel [Intel</td>
+              <td>Data Center Solutions, IoT, and PC Innovation](https://www.intel.com/content/www/us/en/homepage.html?aliasId=6uoYWRJRT5eEwzYra)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>EVGA <a href="https://www.evga.com/?aliasId=egMyQ5DdDwNmHraNW">www.evga.com/</a></li>
+      <li>Sapphire <a href="https://www.sapphiretech.com/de-de?aliasId=wYGXwYqXJAqs54wcx">SAPPHIRE Technology Limited</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>CHTC UW Research Computing <a href="https://chtc.cs.wisc.edu/uw-research-computing/gpu-lab.html?aliasId=7gLEq43amvq4hrpD5">Welcome to the CHTC GPU Lab</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Princeton Research Computing [GPU Computing</td>
+              <td>Princeton Research Computing](https://researchcomputing.princeton.edu/support/knowledge-base/gpu-computing?aliasId=c6K5q5DH33B7vgZBD)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Make Programming Simple Lab <a href="https://labs.engineering.asu.edu/mps-lab/research-themes/accelerated-computing/gpuc/?aliasId=Qs2cZYQZYXS5D2NBw">GPU Computing – MPS Lab</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Irish Centre for High-end Computing [GPU Research &amp; Development</td>
+              <td>ICHEC](https://www.ichec.ie/about/activities/novel-technologies/many-core-rd/gpu-research-development?aliasId=Bpv8aqKB6Eo6NNS64)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>NVIDIA GPU Research Center [Higher Education and Research</td>
+              <td>NVIDIA Developer](https://developer.nvidia.com/higher-education-and-research?aliasId=B7nF9u5DTRpCZKm8S)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li>Jensen Huang</li>
+      <li>Chris Malachowsky</li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>GPU hackathon [GPU Hackathons and Bootcamps</td>
+              <td>GPU Hackathon](https://www.gpuhackathons.org/?aliasId=DoDiupAdpyxDHbWDr)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Build your own on GPU computing based computer[How to build the perfect Deep Learning Computer and save thousands of dollars</td>
+              <td>by Jeff Chen</td>
+              <td>Mission.org</td>
+              <td>Medium](https://medium.com/the-mission/how-to-build-the-perfect-deep-learning-computer-and-save-thousands-of-dollars-9ec3b2eb4ce2?aliasId=aWcC3zXArb2AhiNu2)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>GPU grant program for scientific research projects and prospective startups <a href="https://hostkey.com/about-us/grants-for-scientific-projects-and-startups/?aliasId=Bx8jt5dpaqmrZChrg">GPU Grant Program for Research Projects and Startups</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Use a GPU cloud provider for machine learning [How to use NVIDIA GPUs for Machine Learning with the new Data Science PC from Maingear</td>
+              <td>by Déborah Mesquita</td>
+              <td>Towards Data Science](https://towardsdatascience.com/how-to-use-gpus-for-machine-learning-with-the-new-nvidia-data-science-workstation-64ef37460fa0?aliasId=HRa5GhAuppWPLjM8u)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>NVIDIA fellowship <a href="https://www.nvidia.com/en-us/research/graduate-fellowships/?aliasId=iYnSXvoctK5qtzkKQ">Graduate Fellows &amp; Fellowship Opportunities | NVIDIA Research</a>
+        <h3 id="quantum-computing">Quantum computing</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Performs calculations via properties of quantum states, such as superposition, interference, and entanglement, to perform calculations. <a href="https://en.wikipedia.org/wiki/Quantum_computing#:~:text=Quantum%20computing%20is%20a%20type,are%20known%20as%20quantum%20computers.?aliasId=29N7a64FBNNZrdvfH">Quantum computing - Wikipedia</a></li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1980 - Paul Benioff proposed quantum mechanical model of the Turing machine.</li>
+      <li>1994 - Peter Shor developed quantum algorithm for finding prime factors of an integer.</li>
+      <li>1998 - Isaac Chuang, Neil Gershenfeld and Mark Kubinec created two-qubit quantum computer that could perform computations.</li>
+      <li>2019 - Google AI and NASA claiming to have performed quantum computation that was infeasible on any classical computer (gets still researched if claim is valid or not)</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>Google Quantum AI <a href="https://quantumai.google/?aliasId=h33i5GLBMnMvCLqiL">Google Quantum AI</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>IQM [We build quantum computers.</td>
+              <td>IQM](https://www.meetiqm.com/?aliasId=Rv5T8q7wabjbEdhgM)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>IBM [Quantum Computing</td>
+              <td>IBM Research](https://research.ibm.com/quantum-computing?aliasId=MyTH6i5n3ZxGQ5xpz)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>D-Wave Systems[D-Wave Systems</td>
+              <td>The Practical Quantum Computing Company](https://www.dwavesys.com/?aliasId=2L73BoPhjqRzwn4de)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>QCI <a href="https://quantumcircuits.com/?aliasId=f2w3wnN2zDknghpqf">Quantum Circuits, Inc.</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>Oxford Quantum <a href="http://oxfordquantum.org/?aliasId=ZxvSxaS3usiPZkkd7">Oxford Quantum</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Institute for quantum computing Waterloo [Home</td>
+              <td>Institute for Quantum Computing</td>
+              <td>University of Waterloo](https://uwaterloo.ca/institute-for-quantum-computing/?aliasId=FiLk8kdoBysb7p8Sx)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Center for Theoretical Physics MIT <a href="https://physics.mit.edu/research/labs-centers/center-for-theoretical-physics/?aliasId=ztd9c5Qqd9vfe4Zs3">Center for Theoretical Physics » MIT Physics</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Centre Quantum Technologies [CQT</td>
+              <td>Centre for Quantum Technologies](https://www.quantumlah.org/?aliasId=X35nzSuNd2GYGmpAi)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>QAR LAB <a href="https://qarlab.de/en/research/?aliasId=4xqabf5kc6WHDCEKP">Quantencomputing-Forschung: Paper und Abschlussarbeiten am QAR-Lab</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li>Jan Goetz <a href="https://twitter.com/jangoetz6?lang=en?aliasId=PBuFC4yYSqef8YybH">twitter.com/jangoetz6?lang=en</a></li>
+      <li>John M. Martinis <a href="http://web.physics.ucsb.edu/~martinisgroup/?aliasId=ztZdPwhDeXhPKQP37">Martinis Group - Home</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Irfan Siddiqi [Irfan Siddiqi</td>
+              <td>UC Berkeley Physics](https://physics.berkeley.edu/people/faculty/irfan-siddiqi?aliasId=RFPxkraEJBromTCyc)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Andreas Walraff <a href="https://qudev.phys.ethz.ch/?aliasId=i6pNQFvDdrFwNYpxB">Quantum Device Lab</a></li>
+      <li>Amir Yacoby <a href="http://yacoby.physics.harvard.edu/yacoby_spinqubits.html?aliasId=95SX3PKmcCyAh4tyj">Yacoby Lab Spin Qubits</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>contribute to Qiskit  <a href="https://github.com/Qiskit/?aliasId=oukNqt8xkmaqj6sSX">Qiskit · GitHub</a></li>
+      <li>Writing blog posts on how to get started with Qiskit</li>
+      <li>List of projects <a href="https://unitary.fund/ideas.html?aliasId=kBpMxuhtpM4ZwZB6a">Unitary Fund</a></li>
+      <li>Donate <a href="https://unitary.fund/donate.html?aliasId=DD9X46BQWXgraGbq7">Unitary Fund</a></li>
+      <li>List of projects <a href="https://github.com/qutip/qutip/wiki/Google-Summer-of-Code-2020?aliasId=ZJx9NdfjrPpQE3FuT">Google Summer of Code 2020 · qutip/qutip Wiki · GitHub</a></li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li>List of people <a href="https://www.quora.com/Who-are-the-top-professors-working-on-Quantum-Computation?aliasId=EFkqtC2KaoJjJpXfE">Who are the top professors working on Quantum Computation? - Quora</a></li>
+      <li>Tips for getting involved <a href="https://medium.com/qiskit/the-hitchhiking-cats-guide-to-getting-a-job-in-quantum-computing-da7e3bb9ff64?aliasId=rAytaFnhRQXMCPAMA">The Hitchhiking Cat’s Guide to Getting a Job in Quantum Computing | by Jay Gambetta | Qiskit | Medium</a>
+        <h3 id="cpu-computing">CPU computing</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Is the electronic circuitry that executes instructions comprising a computer program.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1945 - John von Neumann distributed paper entitled “First draft of a Report on the EDVAC”</li>
+      <li>1955 - Central processing unit term is used</li>
+      <li>1964 - IBM introduced computer architecture that was used in series of computers based on transistors</li>
+      <li>1971 - Introduction first commercially available micro processor</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://www.amd.com/en?aliasId=JE4wXkk6fmHhfyzMy">www.amd.com/en</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[MediaTek</td>
+              <td>Homepage](https://www.mediatek.com/?aliasId=5kJ9S5CRfw7Ze7ZwZ)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Homepage</td>
+              <td>GLOBALFOUNDRIES](https://gf.com/?aliasId=rdukwaoLnwDm3giww)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Marvell Technology, Inc.</td>
+              <td>Essential technology, done right](https://www.marvell.com/?aliasId=MsdvQG5Pw3GERRFTj)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.renesas.com/us/en?aliasId=iBmMB8yvSHWdqWoNY">Renesas Electronics Corporation</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://www.amd.com/en/corporate/research?aliasId=AsQSswJnGLPSkPn2G">www.amd.com/en/corporate/research</a></li>
+      <li><a href="https://www.cl.cam.ac.uk/research/comparch/?aliasId=NniqQmz5itGpexmBA">Computer Laboratory: Computer Architecture Group</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Labs and Facilities</td>
+              <td>College of Computing</td>
+              <td>Michigan Tech](https://www.mtu.edu/computing/facilities/?aliasId=j8cvtdxAhtiaQmLRh)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.intel.com/content/www/us/en/research/overview.html?aliasId=ajiczmGk4shr35ipW">Intel Labs - Computer Science Research and Collaboration</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Research Centers &amp; Labs</td>
+              <td>Manning College of Information and Computer Sciences</td>
+              <td>UMass Amherst](https://www.cics.umass.edu/research/research-groups?aliasId=5wPs63ioGduRPCHic)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>Donate CPU power, they mine cryptocurrencies with it <a href="https://www.cudodonate.com/?aliasId=3gbxseh64QvBKwj6Y">Cudo Donate</a>  (for different use cases possible to spend CPU power <a href="https://singularityhub.com/2017/12/31/9-ways-you-can-use-your-devices-for-advanced-scientific-research/?aliasId=c5L3XRtSLeRRSCe84">9 Ways You Can Use Your Devices for Advanced Scientific Research</a>)</li>
+      <li>Build your own CPU from scratch <a href="https://www.quora.com/Can-you-build-your-own-CPU-from-scratch-How-much-would-it-cost?aliasId=bHGwyZZ9ZcCRTnXQt">Can you build your own CPU from scratch? How much would it cost? - Quora</a>
+        <h3 id="ai-accelerator">AI accelerator</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Specialized hardware accelerator to accelerate AI or ML processes.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>2010s - Through upcoming of deep learning more specialized AI hardware was created</li>
+      <li>2016 - GPUs get popular for AI related work</li>
+      <li>2017 - In-memory computing architectures</li>
+      <li>2019 - In-memory computing with analog resistive memories</li>
+      <li>2020 - Atomically thin semiconductors</li>
+      <li>2021 - Integrated photonic tensor core</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://cerebras.net/">Homepage - Cerebras</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[SambaNova Systems</td>
+              <td>Creating the AI Enabled Enterprise - SambaNova Systems](https://sambanova.ai/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.graphcore.ai/">Graphcore: Accelerating machine learning for a world of intelligent machines</a></li>
+      <li><a href="https://groq.com/">Home - Groq</a></li>
+      <li><a href="https://mythic.ai/">Power-efficient analog compute for edge AI - Mythic</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Machine Learning at SLAC</td>
+              <td>SLAC National Accelerator Laboratory](https://ml.slac.stanford.edu/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[AI Research Areas</td>
+              <td>Computing](https://computing.fnal.gov/ai-research-areas/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://li.seas.upenn.edu/">Penn Computational Intelligence Lab</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://scholar.google.co.uk/citations?user=84ZJvbsAAAAJ&amp;hl=en">‪Andreas Adelmann‬ - ‪Google Scholar‬</a></li>
+      <li><a href="https://www.linkedin.com/in/jonathan-ross-12a95156/">www.linkedin.com/in/jonathan ross 12a95156/</a></li>
+      <li><a href="https://www.linkedin.com/in/mike-henry-72204123/">www.linkedin.com/in/mike henry 72204123/</a></li>
+      <li><a href="https://portal.slac.stanford.edu/sites/lcls_public/science/people/dratner/Pages/default.aspx">portal.slac.stanford.edu/sites/lcls public/science/people/dratner/Pages/default.aspx</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Sara A. Miskovich</td>
+              <td>Machine Learning at SLAC](https://ml.slac.stanford.edu/saramiskovich)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[PEOPLE</td>
+              <td>Machine Learning at SLAC](https://ml.slac.stanford.edu/people), Join a lab or a company</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Search a small project to get familiar withe field</li>
+      <li><a href="https://cs217.stanford.edu/">Hardware Accelerators for Machine Learning (CS 217) by        cs217</a>, Follow a curriculum on the field</li>
+      <li><a href="https://www.amazon.com/NANO-CHIPS-2030-Chip-Autonomous-Chip-Systems/dp/3030183378/ref=asc_df_3030183378/?tag=hyprod-20&amp;linkCode=df0&amp;hvadid=459640465657&amp;hvpos=&amp;hvnetw=g&amp;hvrand=3680559696507768852&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=1013581&amp;hvtargid=pla-925381370361&amp;psc=1">NANO-CHIPS 2030: On-Chip AI for an Efficient Data-Driven World (The Frontiers Collection): Murmann, Boris, Hoefflinger, Bernd: 9783030183370: Amazon.com: Books</a>, Read
+        <h2 id="applications">Applications</h2>
+        <h3 id="nlp">NLP</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Concerned with interactions between computers and human language.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1954 - Automatic translation of more than sixty Russian sentences into English</li>
+      <li>60s ‒ Further development of notable natural language processing systems ELIZA &amp; SHRDLU</li>
+      <li>70s - Many programmers wrote conceptual ontologies</li>
+      <li>80s - Hey-day of symbolic methods in NLP</li>
+      <li>1990s - 2010s - Introduction of machine learning algorithms for language processing</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://aigo.ai/?aliasId=CWwmBqr7zzafg996e">Aigo.ai – Enterprise Chatbot with a Brain</a>, Chatbot</li>
+      <li><a href="https://verbit.ai/?aliasId=hrfPDbKEgcHgcKKkJ">Verbit: Professional AI-Based Transcription &amp; Captioning Services</a>, Transcription</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Augmented Voice Intelligence for Contact Centers</td>
+              <td>Skit.ai](https://skit.ai/?aliasId=akSYHcuorvDcJacpS), Augmented voice</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://primer.ai/?aliasId=7oyBpjvi9F68jFsEt">Home - PrimerAI</a>, Textorganisation</li>
+      <li><a href="https://www.failory.com/startups/natural-language-processing#toc-2-primer?aliasId=FixdT2tnqwz8D2EPu">Top 42 Startups in the Natural Language Processing Industry</a>, Customer service</li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Research Groups</td>
+              <td>Institute for Natural Language Processing</td>
+              <td>University of Stuttgart](https://www.ims.uni-stuttgart.de/en/institute/researchgroups/?aliasId=qKh3ySAK29sBneuHQ)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="http://nlp.cs.berkeley.edu/?aliasId=3QqBcLcSkRCJwQJJa">The Berkeley NLP Group</a></li>
+      <li><a href="https://mr.cs.ucl.ac.uk/?aliasId=qGAaTMafjTTRjEJKe">UCL Machine Reading</a></li>
+      <li><a href="https://nlp.stanford.edu/?aliasId=HLv3LFN6xs6sRdMEK">The Stanford Natural Language Processing Group</a></li>
+      <li><a href="https://www.cl.cam.ac.uk/research/nl/?aliasId=3b848xuaSjCHv9sdA">Computer Laboratory – Natural Language and Information Processing Research Group: NLIP Group</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/vosspeter?aliasId=C7FM5PB253JEhMYq9">www.linkedin.com/in/vosspeter</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Christopher Manning’s Profile</td>
+              <td>Stanford Profiles](https://profiles.stanford.edu/chris-manning?aliasId=kQpmpdg6LHiHygRsY)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://ruder.io/?aliasId=A5eDs5SxPpWq2wcaN">Sebastian Ruder</a></li>
+      <li><a href="https://www.rctatman.com/?aliasId=62cZjCvQpB2v48i5S">Dr. Rachael Tatman</a></li>
+      <li><a href="https://www.socher.org/?aliasId=mNyfw58eWsYdS7cNX">Richard Socher</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://github.com/keon/awesome-nlp?aliasId=3PcdnSrwhbFsQPgXj">GitHub - keon/awesome-nlp: A curated list of resources dedicated to Natural Language Processing (NLP)</a>, List of useful links</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[300+ GPT-3 Examples, Demos, Apps, Showcase, and NLP Use-cases</td>
+              <td>GPT-3 Demo](https://gpt3demo.com/?aliasId=T82WJ9w3kBNhKSgs7), Explore use cases of language models like GPT-3</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://transformer.huggingface.co/?aliasId=psbv83KKMb2krNsy6">Write With Transformer</a>, Start writing with language models
+        <h3 id="computer-vision">Computer Vision</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Deals with how computers can gain high level understanding from digital images or videos.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1960 - Start at universities</li>
+      <li>1970s - formed the early foundations of many computer vision algorithms which exist today</li>
+      <li>1990s - changes through increased interactions between the fields of computer graphics and computer vision</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://www.anduril.com/">Anduril â€” Home</a>, Military use</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Metropolis</td>
+              <td>We make the journey remarkable](https://metropolis.io/), Mobile commerce and parking</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Robotic Automation for Restaurants</td>
+              <td>Miso Robotics](https://misorobotics.com/) Robotics focus on restaurant industry</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://shop.piaggiofastforward.com/?_ga=2.63624109.309326748.1648511687-11106.1648511687">gita store - Piaggio Fast Forward</a>, Following robots</li>
+      <li><a href="https://viso.ai/">Viso Suite - No-Code Computer Vision Platform - viso.ai</a>, Platform for building computer vision platforms without code</li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://groups.csail.mit.edu/vision/welcome/">MIT CSAIL Computer Vision Research Group</a></li>
+      <li><a href="https://ci2cv.net/">CI2CV Computer Vision Lab</a></li>
+      <li><a href="http://www.vision.caltech.edu/">Computational Vision: [Home]</a></li>
+      <li><a href="http://vision.ucla.edu/">UCLA Vision Lab</a></li>
+      <li><a href="https://hci.iwr.uni-heidelberg.de/vislearn/">Computer Vision and Learning Lab Heidelberg</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.robots.ox.ac.uk/~az/">www.robots.ox.ac.uk/~az/</a> , Andrew Zisserman</li>
+      <li><a href="http://olivalab.mit.edu/audeoliva.html">Computational Perception &amp; Cognition</a>, Aude Oliva</li>
+      <li><a href="https://www.cs.toronto.edu/~kriz/">Alex Krizhevsky</a>, Alex Krizhevsky</li>
+      <li><a href="https://sites.google.com/site/pushmeet/">Pushmeet Kohli</a>, Pushmeet Kohli</li>
+      <li><a href="https://www.ri.cmu.edu/ri-faculty/takeo-kanade/">Takeo Kanade - The Robotics Institute Carnegie Mellon University</a>, Takeo Kanade</li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[AIcrowd</td>
+              <td>AI Blitz XIII</td>
+              <td>Challenges](https://www.aicrowd.com/challenges/ai-blitz-xiii), Do this five computer challenges</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://github.com/jbhuang0604/awesome-computer-vision">GitHub - jbhuang0604/awesome-computer-vision: A curated list of awesome computer vision resources</a>, comprehensive list of projects</li>
+      <li><a href="https://www.forbes.com/sites/forbestechcouncil/2022/03/02/tips-on-getting-started-with-computer-vision-in-your-business/?sh=2ae195636976">Tips On Getting Started With Computer Vision In Your Business</a>, Implement computer vision in your business
+        <h3 id="bioinformatics">Bioinformatics</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Field which develops methods and software tools for understanding biological data</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1970 - Paulien Hogeweg and Ben Hesper coined it 1970</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Isomorphic Labs</td>
+              <td>Home](https://www.isomorphiclabs.com/),  Drug discovery</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.causaly.com/">Home - Causaly</a>, Uses ML to read scientific articles and extract causal associations</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Diagnostic Tests for Lung Cancer</td>
+              <td>Lung Cancer Tests</td>
+              <td>Biodesix](https://www.biodesix.com/), Uncovers blood based biomarker patterns</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.biotrillion.com/">BioTrillion — Data from Life. Data for Life.</a>, Takes sensor datas from customer environment to measure disease development and response to drugs</li>
+      <li><a href="https://www.gero.ai/">GERO.AI – Hacking complex diseases and aging</a>, Identifies biomarkers of aging and drug discovery for aging</li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://function.princeton.edu/">Troyanskaya Laboratory</a></li>
+      <li><a href="https://kiwi-biolab.de/">This is the kiwi-biolab, a BMBF KI Future Lab!</a>, Collaboration of scientists to find automation opportunities in biotechnological processes</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Homepage - Machine Learning and Computational Biology Lab – Machine Learning &amp; Computational Biology Lab</td>
+              <td>ETH Zurich](https://bsse.ethz.ch/mlcb)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://aims.cs.washington.edu/">AIMS Lab</a></li>
+      <li><a href="https://www.helmholtz-munich.de/icb/research/labs/machine-learning/overview/index.html">Machine Learning</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://scholar.google.com/citations?user=gI8o6x8AAAAJ">‪Wolfgang Huber‬ - ‪Google Scholar‬</a></li>
+      <li><a href="https://scholar.google.com/citations?user=POWKkqEAAAAJ&amp;hl=en">‪Serafim Batzoglou‬ - ‪Google Scholar‬</a></li>
+      <li><a href="https://scholar.google.com/citations?user=sUVeH-4AAAAJ&amp;hl=en">‪Steven Salzberg‬ - ‪Google Scholar‬</a></li>
+      <li><a href="https://scholar.google.com/citations?user=M6Etr6oAAAAJ&amp;hl=en">‪Peer Bork‬ - ‪Google Scholar‬</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Piotr DABROWSKI</td>
+              <td>Professor</td>
+              <td>Prof. Dr.-Ing.</td>
+              <td>Hochschule für Technik und Wirtschaft Berlin, Berlin</td>
+              <td>HTW</td>
+              <td>FB 4](https://www.researchgate.net/profile/Piotr-Dabrowski-10)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[ROSALIND</td>
+              <td>Problems</td>
+              <td>Locations](https://rosalind.info/problems/locations/), Solve problems</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=jBlTQjcKuaY&amp;t=5014s">www.youtube.com/watch?v=jBlTQjcKuaY&amp;t=5014s</a>, Drug discovery tutorial</li>
+      <li><a href="https://4273pi.org/">4273pi.org/</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/List_of_open-source_bioinformatics_software">List of open-source bioinformatics software - Wikipedia</a>, Open source software contribution</li>
+      <li><a href="https://abi.am/donate/">Donate – Armenian Bioinformatics Institute</a>, Donation</li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li><a href="https://blog.benchsci.com/startups-using-artificial-intelligence-in-drug-discovery">230 Startups Using Artificial Intelligence in Drug Discovery</a>, list of AI drug discovery companies
+        <h3 id="pattern-recognition">Pattern Recognition</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Automated recognition of patterns and regularities in data</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1967 - Invention of nearest neighbor algorithm and begin of basic pattern recognition</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Plantix</td>
+              <td>Best Agriculture App](https://plantix.net/en/), Diagnosis of diseases, pests and nutrient deficiencies</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://osaro.com/">Home - Osaro</a>, Robotics solution for e-commerce</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[CAD/CAM Software fuer Orthopädietechniker</td>
+              <td>Mecuris](https://www.mecuris.com/), Orthoses production</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Planet</td>
+              <td>Homepage](https://www.planet.com/), Geospatial analysis</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://sensiml.com/">SensiML - Making Sensor Data Sensible</a>, Pattern recognition with IoT</li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics">Pattern Recognition &amp; Bioinformatics</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Pattern Recognition and Image Processing (PRIP) Lab</td>
+              <td>Michigan State University</td>
+              <td>College of Engineering</td>
+              <td>Future Engineers](https://www.egr.msu.edu/future-engineer/pattern-recognition-and-image-processing-prip-lab)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Document and Pattern Recognition Lab</td>
+              <td>RIT](https://www.rit.edu/facilities/document-and-pattern-recognition-lab)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://lme.tf.fau.de/">Overview - Pattern Recognition Lab</a></li>
+      <li><a href="https://www5.cs.fau.de/">Pattern Recognition Lab</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://see.xidian.edu.cn/faculty/xbgao/">see.xidian.edu.cn/faculty/xbgao/</a></li>
+      <li><a href="https://scholar.google.com/citations?user=FZbrL2YAAAAJ&amp;hl=en">‪Licheng Jiao‬ - ‪Google Scholar‬</a></li>
+      <li><a href="https://scholar.google.com/citations?user=RwlJNLcAAAAJ&amp;hl=en">‪Dacheng Tao‬ - ‪Google Scholar‬</a></li>
+      <li><a href="https://scholar.google.com/citations?user=UeltiQ4AAAAJ&amp;hl=en">‪Xiang Bai‬ - ‪Google Scholar‬</a></li>
+      <li><a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/">Jiwen Lu</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Pattern Recognition</td>
+              <td>Introduction - GeeksforGeeks](https://www.geeksforgeeks.org/pattern-recognition-introduction/), Intro</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.icpr2022.com/">www.icpr2022.com/</a>, Attend conference</li>
+      <li><a href="https://homepages.inf.ed.ac.uk/rbf/IAPR/researchers/SPRPAGES/sprdat.htm">Public datasets for symbolic pattern recognition</a>, Datasets
+        <h3 id="recommendation-systems">Recommendation systems</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Predicts what rating or preferences a user would give to an item.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1990 - First mentioned by Jussi Karlgren</li>
+      <li>1994 - Implemented at scale</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://www.stridelysolutions.com/smart-product-recommendation/">Smart Product Recommendation - Stridely Solutions</a>, Product recommendation</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[AI-Powered Real-Time Recommender</td>
+              <td>Recombee](https://www.recombee.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://abacus.ai/user_eng?token=reco1&amp;gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb2dNVhJX66WCFrjXOhXy-ROy41cWUwUaLP9QNp0HUorUE8YCqK1xTgaAoWnEALw_wcB">Abacus.AI - Effortlessly Embed Cutting Edge AI In Your Applications.</a></li>
+      <li><a href="https://xgen.ai/?gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb2nnqH2hA8X3sbZeNUu4DwAjWvHJWlIJJ1TcjZoENeBWDpZnM1pJ48aAvgsEALw_wcB">Home</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[preezie</td>
+              <td>#1 AI Product Recommendation Engine](https://www.preezie.com/ai-product-recommendation?utm_term=recommendations%20engine&amp;utm_campaign=preezie+SKAG&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=5691751332&amp;hsa_cam=11438522546&amp;hsa_grp=111107726119&amp;hsa_ad=549255617436&amp;hsa_src=g&amp;hsa_tgt=kwd-295495314942&amp;hsa_kw=recommendations%20engine&amp;hsa_mt=b&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb1Gqf0aMeT3Ux7hMC3S0zaQOiyJFZAo6Pv7VEK36sgod4EbJ57H6pIaAhdGEALw_wcB)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Home</td>
+              <td>That Recommender Systems Lab](http://www.that-recsys-lab.net/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.martijnwillemsen.nl/recommenderlab/">Recommender LAB</a></li>
+      <li><a href="https://cs.hse.ru/en/ai/issa/Field_Recommender_Systems/">Recommender Systems — International Laboratory for Intelligent Systems and Structural Analysis — HSE University</a></li>
+      <li><a href="https://www.cs.utexas.edu/users/ai-lab/?learnrecommender">AI Lab Areas -  Learning for Recommender Systems</a></li>
+      <li><a href="https://fekri.ece.gatech.edu/proj_soc_comp.html">SPC Lab</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://martijnwillemsen.nl/">Martijn Willemsen</a></li>
+      <li><a href="https://www.linkedin.com/in/mschrage/">www.linkedin.com/in/mschrage/</a>, Author of <a href="https://books.google.com/books/about/Recommendation_Engines.html?id=Cr74DwAAQBAJ&amp;printsec=frontcover&amp;source=kp_read_button&amp;hl=en&amp;newbks=1&amp;newbks_redir=0#v=onepage&amp;q&amp;f=false">Recommendation Engines - Michael Schrage - Google Books</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Alexander Felfernig</td>
+              <td>Univ.-Prof. DI Dr. Alexander Felfernig	](https://felfernig.ist.tugraz.at/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://scholar.google.com/citations?user=KqefJxsAAAAJ&amp;hl=en">‪Pijush Kanti Dutta Pramanik‬ - ‪Google Scholar‬</a></li>
+      <li><a href="https://scholar.google.com/citations?user=MrZiOykAAAAJ&amp;hl=en">‪Avick Kumar Dey‬ - ‪Google Scholar‬</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://github.com/that-recsys-lab">That Recommender Systems Lab · GitHub</a>, Contribution</li>
+      <li><a href="https://books.google.com/books/about/Recommendation_Engines.html?id=Cr74DwAAQBAJ&amp;printsec=frontcover&amp;source=kp_read_button&amp;hl=en&amp;newbks=1&amp;newbks_redir=0#v=onepage&amp;q&amp;f=false">Recommendation Engines - Michael Schrage - Google Books</a>, Reading</li>
+      <li>Try recommendation for your use cases (i.e. business)</li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li><a href="https://github.com/grahamjenson/list_of_recommender_systems">GitHub - grahamjenson/list_of_recommender_systems: A List of Recommender Systems and Resources</a>, Helpful list with all informations about recommender systems
+        <h3 id="xrai">XR/AI</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Use of machine learning and artificial intelligence in virtual realities.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1968-  Ivan Sutherland and  Bob Sproull created the first VR / AR  head mounted display</li>
+      <li>2007 – Google introduced Street View, which provides panoramic views of locations.</li>
+      <li>2010 – The first prototype of the Oculus Rift headset was designed.</li>
+      <li>2014 - Google Glass</li>
+      <li>2021 - Replika launches in the Oculus store</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://www.google.com/glass/tech-specs/">        Tech Specs â€“ Glass    </a></li>
+      <li><a href="https://replika.ai/">Replika</a></li>
+      <li><a href="https://nianticlabs.com/en/">Niantic, Inc.</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Avegant</td>
+              <td>Products](https://www.avegant.com/products.html)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://ai.facebook.com/">Meta AI</a></li>
+      <li><a href="https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/">Mixed Reality &amp; AI Lab – Zurich - Microsoft Research</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[AR, VR, MR &amp; AI solutions for business</td>
+              <td>Lucid Reality Labs](https://lucidrealitylabs.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Omniverse Platform for 3D Design Collaboration and Simulation</td>
+              <td>NVIDIA](https://www.nvidia.com/en-us/omniverse/?ncid=pa-srch-goog-481044&amp;gclid=CjwKCAjwrqqSBhBbEiwAlQeqGrp0yxZDpixGaN3Pp3pWSpNlxeVaaaqxnKgwW8BOfgYd60v9JbEhIBoC67kQAvD_BwE#cid=ov01_pa-srch-goog_en-us)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[MetaGen</td>
+              <td>Bringing AI to the Metaverse, and viceversa](https://metagen.ai/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://aixr.org/insights/">Insights - AIXR</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[VHIL</td>
+              <td>Virtual Human Interaction Lab](https://stanfordvr.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://xrlab.berkeley.edu/research/">Research - XR Lab - UC Berkeley</a></li>
+      <li><a href="https://www.media.mit.edu/research/?filter=everything&amp;tag=augmented-reality">Research — MIT Media Lab</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/eugenia-kuyda-638a8a1b/">www.linkedin.com/in/eugenia kuyda 638a8a1b/</a></li>
+      <li><a href="https://www.cathyhackl.com/">Cathy Hackl</a></li>
+      <li><a href="https://www.linkedin.com/in/benitopagotto/?originalSubdomain=uk">www.linkedin.com/in/benitopagotto/?originalSubdomain=uk</a></li>
+      <li><a href="https://www.linkedin.com/in/borgetsebastien/">www.linkedin.com/in/borgetsebastien/</a></li>
+      <li><a href="https://www.linkedin.com/in/hrishlotlikar/">www.linkedin.com/in/hrishlotlikar/</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://arvr.google.com/cardboard/">Google Cardboard â€“ Google VR</a> , Play around with VR</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Replika (Early Access) on Oculus Quest</td>
+              <td>Oculus](https://www.oculus.com/experiences/quest/5620852627988042/), Create your Replika on the Oculus</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://aixr.org/">AIXR - The Academy of International Extended Reality</a>, Become a member</li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li><a href="https://helsinkixrcenter.com/xr-research-group-index/">XR Research Group Index – Services – Helsinki XR Center</a>, Catalog of XR related institutions
+        <h2 id="artificial-general-intelligence">Artificial General Intelligence</h2>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Ability of an intelligent agent to understand or learn any intellectual task that a human being can.</li>
+      <li>History</li>
+      <li>1950s - First generation of AI researcher were convinced that artificial intelligence was possible</li>
+      <li>1970s - AI winter</li>
+      <li>1980s - Knowledge became focus of mainstream AI</li>
+      <li>1987 - 1993 - AI winter</li>
+      <li>1993 - 2011 - Used successfully throughout the technology industry</li>
+      <li>2011 - present Deep learning, big data and artificial general intelligence</li>
+      <li>Companies</li>
+      <li><a href="https://www.vicarious.com/">Robotics Integrator Powered by AI – Vicarious</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Numenta</td>
+              <td>Where Neuroscience Meets Machine Intelligence](https://numenta.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[ Rent GPU Servers for Deep Learning and AI</td>
+              <td>Vast.ai](https://vast.ai/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.deepmind.com/">DeepMind</a></li>
+      <li><a href="https://aibrain.com/about/">About – AIBrain</a></li>
+      <li><a href="https://openai.com/about/">About OpenAI</a></li>
+      <li><a href="http://olbrain.com/">Olbrain - The AGI Brain </a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[GoodAI</td>
+              <td>Develop safe general artificial intelligence – as fast as possible – to help humanity and understand the universe.](https://www.goodai.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://generallyintelligent.ai/">generallyintelligent.ai/</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://web.archive.org/web/20050405071221/http://genesis.csail.mit.edu/index.html">Genesis</a></li>
+      <li><a href="https://ccrg.cs.memphis.edu/projects.html">CCRG - Cognitive Computing Research Group - Projects</a></li>
+      <li><a href="https://www.eleuther.ai/">EleutherAI</a></li>
+      <li><a href="https://cse.buffalo.edu/sneps/">SNePS Research Group Home Page</a></li>
+      <li><a href="https://www.epfl.ch/research/domains/bluebrain/">Blue Brain Project ‐ EPFL</a></li>
+      <li>People</li>
+      <li><a href="https://www.linkedin.com/in/marekrosa1/">www.linkedin.com/in/marekrosa1/</a>, Founder of GoodAI</li>
+      <li><a href="http://www.hutter1.net/">www.hutter1.net/</a></li>
+      <li><a href="https://people.idsia.ch/~juergen/">people.idsia.ch/~juergen/</a></li>
+      <li><a href="https://cis.temple.edu/~wangp/">cis.temple.edu/~wangp/</a></li>
+      <li><a href="https://www.linkedin.com/in/bengoertzel/">www.linkedin.com/in/bengoertzel/</a></li>
+      <li>Ways for getting involved</li>
+      <li><a href="http://www.opennars.org/">Open-NARS</a>, <a href="https://github.com/SoarGroup">University of Michigan Soar Group · GitHub</a>, Contribute to open source projects</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[OpenCog Foundation</td>
+              <td>Donate](https://opencog.org/donate/), Donate to openCog</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Theoretical Foundations of Artificial General Intelligence</td>
+              <td>SpringerLink](https://link.springer.com/book/10.2991/978-94-91216-62-6), Start with creating a reading list  or join existing curriculum <a href="http://goertzel.org/agi-curriculum/">AGI Curriculum – goertzel.org</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.eleuther.ai/">EleutherAI</a>, Join a AI community
+        <h2 id="algorithmsarchitectures">Algorithms/Architectures</h2>
+        <h3 id="badger-architecture">Badger Architecture</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Set of design principles and a learning protocol.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>2019 - Release of Badger architecture</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[GoodAI</td>
+              <td>Develop safe general artificial intelligence – as fast as possible – to help humanity and understand the universe.](https://www.goodai.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/marekrosa1/">www.linkedin.com/in/marekrosa1/</a></li>
+      <li><a href="https://www.linkedin.com/in/sarkakrejcova/">www.linkedin.com/in/sarkakrejcova/</a></li>
+      <li><a href="https://www.linkedin.com/in/lucie-krestova-4694738/">www.linkedin.com/in/lucie krestova 4694738/</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[GoodAI Grants</td>
+              <td>GoodAI](https://www.goodai.com/goodai-grants/), Apply for an grant</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Careers</td>
+              <td>GoodAI](https://www.goodai.com/careers/), Apply</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://arxiv.org/abs/1912.01513">[1912.01513] BADGER: Learning to (Learn [Learning Algorithms] through Multi-Agent Communication)</a>, Read the paper
+        <h3 id="nars">NARS</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>NARS (Non-Axiomatic Reasoning System) is a project aimed at the building of a general-purpose intelligent system, i.e., a “thinking machine”.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1986 - Version 1 at Peking University</li>
+      <li>1992 - Version 2 at Indiana University</li>
+      <li>1995 - Version 3 at Indiana University</li>
+      <li>1998 - Philadelphia University</li>
+      <li>2008 - Open source version <a href="https://www.opennars.org/">Open-NARS</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://cis.temple.edu/tagit/">cis.temple.edu/tagit/</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://cis.temple.edu/~pwang/">cis.temple.edu/~pwang/</a></li>
+      <li><a href="https://www.linkedin.com/in/hongzheng-wang/">www.linkedin.com/in/hongzheng wang/</a></li>
+      <li><a href="https://www.christianhahm.com/">www.christianhahm.com/</a></li>
+      <li><a href="https://www.linkedin.com/in/mina-gabriel-b9628913b/">www.linkedin.com/in/mina gabriel b9628913b/</a></li>
+      <li><a href="https://www.linkedin.com/in/edward-sharick/">www.linkedin.com/in/edward sharick/</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://cis.temple.edu/tagit/">cis.temple.edu/tagit/</a>, Join the team</li>
+      <li><a href="https://www.worldscientific.com/worldscibooks/10.1142/8665">Non-Axiomatic Logic</a> , Read the book</li>
+      <li><a href="mailto:pei.wang@temple.edu">**pei.wang@temple.edu **</a>  , Write the inventor</li>
+      <li><a href="https://groups.google.com/g/open-nars">open-nars - Google Groups</a>, Participate in group discussions</li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li>From Pei Wang, Ph.D.:
+        <ul>
+          <li>My project is NARS (Non-Axiomatic Reasoning System), with Non-Axiomatic Logic as a part (the logic used). Pavol Durisek created <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.applied-nars.com%2F&amp;data=04%7C01%7Cpei.wang%40temple.edu%7C4ea462f389464aa451e608da138a0319%7C716e81efb52244738e3110bd02ccf6e5%7C0%7C0%7C637843781654695384%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C2000&amp;sdata=vA7IzhnHmwhySIen1LqD7iLElO76viKvdCU8MxtMFmo%3D&amp;reserved=0">www.applied nars.com/</a> in 2013 to apply NARS in cettain domains. As far as I can tell, he is no longer actively working on this project. That website should not be used to represent NARS.
+            <h3 id="aixi">AIXI</h3>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Is a reinforcement learning agent.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>2000- First proposal from Marcus Hutter</li>
+      <li>2005 - Several results regarding AIXI are proved in Hutter’s 2005 book Universal Artificial Intelligence</li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="http://www.hutter1.net/">www.hutter1.net/</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="http://www.hutter1.net/prize/index.htm">www.hutter1.net/prize/index.htm</a>, Try the compressing human knowledge challenge</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Professor Marcus Hutter</td>
+              <td>ANU College of Engineering &amp; Computer Science](https://cecs.anu.edu.au/people/marcus-hutter), Join projects which are promoted by Hutter</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.lesswrong.com/tag/aixi">AIXI - LessWrong</a>, Read the AIXI discussion on Lesswrong
+        <h3 id="act-r">ACT-R</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Theory about how human cognition works.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1973 - 1990 - ACT-R is the ultimate successor of a series of increasingly precise models of human cognition developed by John R. Anderson.</li>
+      <li>1990 - 1998 - Release of ACT-R 4.0 (software)</li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="http://act-r.psy.cmu.edu/">ACT-R  </a></li>
+      <li><a href="https://learnlab.org/">LearnLab –          Part of the Simon Initiative</a></li>
+      <li><a href="https://www.parc.com/">        Research Services, Open Innovation and Breakthrough Technology    </a></li>
+      <li><a href="http://pact.cs.cmu.edu/">pact.cs.cmu.edu/</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.cmu.edu/dietrich/psychology/people/core-training-faculty/anderson-john.html">John R Anderson -     Department of Psychology -     Dietrich College of Humanities and Social Sciences - Carnegie Mellon University</a></li>
+      <li><a href="http://act-r.psy.cmu.edu/people/">ACT-R   » People</a>, Extensive list of people which are involved in the project</li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://global.oup.com/academic/product/how-can-the-human-mind-occur-in-the-physical-universe-9780195324259?q=american%20architecture&amp;lang=en&amp;cc=us">How Can the Human Mind Occur in the Physical Universe? - Hardcover - John R. Anderson - Oxford University Press</a>, Read the book</li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li><a href="http://act-r.psy.cmu.edu/people/">ACT-R   » People</a>, List with all the people which are involved
+        <h3 id="micropsi">MicroPsi</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Agent architecture which describes the interaction of emotion, motivation and cognition of situated agents.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1999 - 2002 - Creation of the Psi theory</li>
+      <li>2003 - 2007 - MicroPsi 1</li>
+      <li>2012 - Start MicroPsi 2</li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://www.media.mit.edu/projects/micropsi-an-architecture-for-motivated-cognition/people/">People ‹ MicroPsi: An Architecture for Motivated Cognition — MIT Media Lab</a></li>
+      <li><a href="http://www.cognitive-ai.com/">Cognitive AI</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="http://bach.ai/">Joscha Bach</a></li>
+      <li><a href="https://www.linkedin.com/in/rvuine/?locale=en_US">www.linkedin.com/in/rvuine/?locale=en US</a></li>
+      <li><a href="https://www.linkedin.com/in/dominik-welland-324b2394/?originalSubdomain=de">www.linkedin.com/in/dominik welland 324b2394/?originalSubdomain=de</a></li>
+      <li><a href="https://www.topionetworks.com/people/priska-herger-5bf84f321dedae2392ceb78e">Priska Herger, Machine Learning Engineer and Co-Founder, Micropsi Industries</a></li>
+      <li><a href="https://www.linkedin.com/in/jonas-kemper-a0908857/?originalSubdomain=de">www.linkedin.com/in/jonas kemper a0908857/?originalSubdomain=de</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://github.com/joschabach/micropsi2">GitHub - joschabach/micropsi2: Python version of cognitive architecture MicroPsi</a>, Contribute to the project</li>
+      <li><a href="https://www.goodreads.com/search?q=principles+of+Synthetic+Intelligence&amp;qid=">Search results for “principles of Synthetic Intelligence” (showing 1-1 of 1 books)</a>, Read
+        <h3 id="soar">Soar</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Is a generative cognitive architecture fro developing systems that exhibit intelligent behavior.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1983 - Beginning of John Laird’s thesis</li>
+      <li>1990 - Unified Theories gets published</li>
+      <li>2012 - Most current and comprehensive books of Soar gets published</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://soartech.com/">Home Page - SoarTech</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Home</td>
+              <td>Cogniteam](https://www.cogniteam.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Applied Cognitive Science Lab</td>
+              <td>Exploring cognition through modeling, experimentation, and big data](http://acs.ist.psu.edu/wp/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="http://csis.pace.edu/robotlab/projects.html">Robotics Lab - Projects</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[The MAVERICK Research Group</td>
+              <td>Gal A. Kaminka: Professor](https://u.cs.biu.ac.il/~kaminkg/maverick/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://soar.eecs.umich.edu/">soar.eecs.umich.edu/</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://laird.engin.umich.edu/">John E. Laird – Home of John E. Laird</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Steven J. Jones, PhD candidate</td>
+              <td>Just a basic personal website, since I’m a grad student and we’re supposed to do those things for networking and whatever.](https://scijones.github.io/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://preetiramaraj.github.io/">Preeti Ramaraj’s website</a></li>
+      <li><a href="https://schatzju.github.io/">Jule Schatz Website</a></li>
+      <li><a href="http://jonathanvoigt.com/">Jonathan Voigt</a></li>
+    </ul>
+  </li>
+  <li>Ways for getting involved
+    <ul>
+      <li><a href="https://soar.eecs.umich.edu/">soar.eecs.umich.edu/</a>, Visit the workshop which gets presented on this site</li>
+      <li><a href="https://soar.eecs.umich.edu/articles/downloads/soar-suite/228-soar-tutorial-9-6-0">soar.eecs.umich.edu/articles/downloads/soar suite/228 soar tutorial 9 6 0</a>, Follow the tutorial</li>
+      <li><a href="https://www.amazon.com/Soar-Cognitive-Architecture-John-Laird/dp/0262122960/ref=sr_1_sc_1?ie=UTF8&amp;qid=1332172759&amp;sr=8-1-spell">The Soar Cognitive Architecture (The MIT Press): Laird, John E., III, Robert E. Wray, Wang, Yongjia, Derbinsky, Nate, Nuxoll, Andrew M., Lathrop, Scott, Wintermute, Samuel, III, Robert P. Marinier, Gorski, Nicholas, Xu, Joseph: 9780262122962: Amazon.com: Books</a>, Read the book</li>
+      <li><a href="https://github.com/SoarGroup">University of Michigan Soar Group · GitHub</a>, Contribute on Github
+        <h3 id="language-models">Language Models</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Probability distribution over sequences of words.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>2001 - First neural language model</li>
+      <li>2008 - Multi-task learning</li>
+      <li>2013 - Word embeddings</li>
+      <li>2014 - Sequence to sequence models</li>
+      <li>2015 - Memory based networks</li>
+      <li>2018 - Pretrained language models</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Natürliche Sprachverarbeitung – Amazon Comprehend – Amazon Web Services](https://aws.amazon.com/de/comprehend/?trk=9c644dd6-b148-4e88-862d-48c1e5b12007&amp;sc_channel=ps&amp;sc_campaign=acquisition&amp;sc_medium=ACQ-P</td>
+              <td>PS-GO</td>
+              <td>Non-Brand</td>
+              <td>Desktop</td>
+              <td>SU</td>
+              <td>Machine%20Learning</td>
+              <td>NLP</td>
+              <td>US</td>
+              <td>EN</td>
+              <td>Text&amp;s_kwcid=AL!4422!3!570724281776!p!!g!!nlp&amp;ef_id=CjwKCAjwxZqSBhAHEiwASr9n9N2ZHBBA_e3Vi9Uwrwis-TXi7cW337xPo1XJowHhpZsM1pOX79JwKRoCxRoQAvD_BwE:G:s&amp;s_kwcid=AL!4422!3!570724281776!p!!g!!nlp)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.ai21.com/">AI21 Labs</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Natural Language Processing</td>
+              <td>CloudFactory](https://info.cloudfactory.com/natural-language-processing?utm_medium=ppc&amp;utm_source=adwords&amp;utm_term=nlp%20services&amp;utm_campaign=NB+%7C+NLP+Services+%7C+Phrase+%7C+US%2BCA&amp;hsa_mt=b&amp;hsa_cam=11427832482&amp;hsa_tgt=kwd-320915133258&amp;hsa_acc=5324129487&amp;hsa_grp=111839750357&amp;hsa_src=g&amp;hsa_net=adwords&amp;hsa_ad=528057169438&amp;hsa_ver=3&amp;hsa_kw=nlp%20services&amp;gclid=CjwKCAjwxZqSBhAHEiwASr9n9GjLgGhghvZ0kgeGTggBxnuCugMtAy6iHV2DfiZne0yk17C86mUtRhoCbBMQAvD_BwE)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://openai.com/blog/">OpenAI Blog</a></li>
+      <li><a href="https://www.aleph-alpha.com/">ALEPH ALPHA</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://www.eleuther.ai/">EleutherAI</a></li>
+      <li><a href="https://www.baai.ac.cn/">www.baai.ac.cn/</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://twitter.com/johannes_hage">twitter.com/johannes hage</a></li>
+      <li><a href="https://twitter.com/npcollapse?lang=en">twitter.com/npcollapse?lang=en</a></li>
+      <li><a href="https://www.linkedin.com/in/jonasandrulis?originalSubdomain=de">www.linkedin.com/in/jonasandrulis?originalSubdomain=de</a></li>
+      <li><a href="https://www.linkedin.com/in/dario-amodei-3934934/">www.linkedin.com/in/dario amodei 3934934/</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Zhilin Yang</td>
+              <td>Carnegie Mellon University](https://kimiyoung.github.io/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://github.com/keon/awesome-nlp?aliasId=3PcdnSrwhbFsQPgXj">GitHub - keon/awesome-nlp: A curated list of resources dedicated to Natural Language Processing (NLP)</a>, List of useful links</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[300+ GPT-3 Examples, Demos, Apps, Showcase, and NLP Use-cases</td>
+              <td>GPT-3 Demo](https://gpt3demo.com/?aliasId=T82WJ9w3kBNhKSgs7), Explore use cases of language models like GPT-3</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://transformer.huggingface.co/?aliasId=psbv83KKMb2krNsy6">Write With Transformer</a>, Start writing with language models</li>
+      <li><a href="https://github.com/karpathy/minGPT">GitHub - karpathy/minGPT: A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training</a>, Implement a minGPT
+        <h3 id="opencog">OpenCog</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>OpenCog per se is a framework for AGI. OpenCog Prime is an architecture for robot and virtual embodied cognition that defines set of interacting components.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>2008 - Founded via grant from Singularity Institute for AI and a donation from Novamente.</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://www.cisco.com/?CCID=cc000894&amp;OID=0&amp;DTID=pseggl000015&amp;POSITION=SEM&amp;COUNTRY_SITE=us&amp;CAMPAIGN=IA-12&amp;CREATIVE=US_SEM_GEN_Pure-Brand-Cisco_EM_B_NOA-GGL_0_0_Observation_ENG-Cisco&amp;REFERRING_SITE=Google&amp;KEYWORD=cisco&amp;KWID=p52232430495&amp;_bk=cisco&amp;_bt=423639483322&amp;_bm=e&amp;_bn=g&amp;_bg=98424308557&amp;gclid=CjwKCAjw9LSSBhBsEiwAKtf0n-Yz3zqlnU6Ddre0EwGp40o31oliPpS9jL7CkplfORyeGVok4Na3thoCTBAQAvD_BwE&amp;gclsrc=aw.ds">Cisco - Networking, Cloud, and Cybersecurity Solutions</a></li>
+      <li><a href="https://www.huawei.com/us/">Huawei United States</a></li>
+      <li><a href="https://www.hansonrobotics.com/">home - Hanson Robotics</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[OpenCog Foundation</td>
+              <td>Building better minds together](https://opencog.org/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/alex-van-der-peet-488a9b48/">www.linkedin.com/in/alex van der peet 488a9b48/</a></li>
+      <li><a href="http://linas.org/">Linas VEPSTAS Home Page</a></li>
+      <li><a href="https://www.linkedin.com/in/shujing-ke-38b27179/">www.linkedin.com/in/shujing ke 38b27179/</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[OpenCog Foundation</td>
+              <td>Donate](https://opencog.org/donate/) , Donate</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://groups.google.com/g/opencog">opencog - Google Groups</a>, Join mailing list</li>
+      <li><a href="https://github.com/opencog/">OpenCog · GitHub</a>, Contribute</li>
+      <li><a href="https://wiki.opencog.org/w/The_Open_Cognition_Project">OpenCog</a>, On this side several ways how to get involved can be found</li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li><a href="https://wiki.opencog.org/w/The_Team">The Team - OpenCog</a>, List of people
+        <h2 id="data">Data</h2>
+        <h3 id="open-data">Open Data</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Data which is openly accessible, exploitable and shared by anyone for any purpose.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1942 - Robert King Merton explained importance that result of research should be open</li>
+      <li>1995 - Term open data appeared first time</li>
+      <li>2007 - While meeting of thirty thinkers aim to define concept of open public data</li>
+      <li>2009 - Nobel prize to Elinor Orstrom who showed the specificity of information commons</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://github.com/">GitHub: Where the world builds software · GitHub</a></li>
+      <li><a href="https://abc.xyz/">Alphabet</a></li>
+      <li><a href="https://www.kaggle.com/">Kaggle: Your Machine Learning and Data Science Community</a></li>
+      <li><a href="https://dev.socrata.com/">dev.socrata.com/</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="http://linkedscience.org/data">Just a moment…</a></li>
+      <li><a href="https://www.systemanaturae.org/">www.systemanaturae.org/</a></li>
+      <li><a href="https://dataverse.org/">The Dataverse Project - Dataverse.org</a></li>
+      <li><a href="https://www.genome.gov/human-genome-project">The Human Genome Project</a></li>
+      <li><a href="https://data.gov/open-gov/">Open Government - Data.gov</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.maxroser.com/">Max Roser – Researcher</a>, Founder Our World in Data</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Jimmy Wales</td>
+              <td>Free knowledge for free minds](https://jimmywales.com/), One of the founder Wikipedia’s</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://blog.ldodds.com/2017/05/25/where-can-you-contribute-to-open-data-yes-you/">Where can you contribute to open data? Yes, you! – Lost Boy</a>, Contribute to one of the open data projects</li>
+      <li><a href="http://opendatatoolkit.worldbank.org/en/starting.html">Starting an Open Data Initiative | Data</a>, Start a own open data initiative
+        <h3 id="data-analysis">Data Analysis</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Process of inspecting, cleansing, transforming and modelling data with the goal of  useful information, informing conclusions and supporting decision-making.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>C 18000 BCE - Humans using tally sticks for analyzing data</li>
+      <li>C 2400 BCE - Invention of abacus</li>
+      <li>300 BC - 48 AD - Library of Alexandria</li>
+      <li>C 100 - 200 AD - Use of Antikythera mechanism</li>
+      <li>1663 - First experiment in statistical data analysis</li>
+      <li>1865 - Term “business intelligence” is termed</li>
+      <li>1880 - Hollerith Tabulating Machine</li>
+      <li>1926 - Method for storing information magnetically on tape gets innovated</li>
+      <li>1958 - New definition of business intelligence</li>
+      <li>1965 - US plans worlds first data center</li>
+      <li>1970 - First time used the term “Big Data”</li>
+      <li>1999 - First use of term “IoT”</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://www.itechart.com/solutions/big-data/?utm_source=softwaretestinghelp&amp;utm_medium=referral&amp;utm_campaign=sth_analytics">www.itechart.com/solutions/big data/?utm source=softwaretestinghelp&amp;utm medium=referral&amp;utm campaign=sth analytics</a></li>
+      <li><a href="https://dhiva.ai/">dhiva.ai/</a></li>
+      <li><a href="https://databricks.com/">Databricks - The Data and AI Company</a></li>
+      <li><a href="https://craft.co/">Just a moment…</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Empowered Data Solutions - Data Science</td>
+              <td>Civis Analytics](https://www.civisanalytics.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://ed.buffalo.edu/dal">Quantitative and Qualitative Data Analysis Lab - Graduate School of Education - University at Buffalo</a></li>
+      <li><a href="http://www.da.inf.ethz.ch/">Data Analytics Lab</a></li>
+      <li><a href="https://www.fhsu.edu/psych/data-analysis-lab">     Data Analysis Lab -  Fort Hays State University</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Data Analysis</td>
+              <td>Chem Lab](https://chemlab.truman.edu/data-analysis/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://sites.usc.edu/dslab/">DATA SCIENCE LAB – Led by Dr. Viktor K. Prasanna</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.dkriesel.com/">News [D. Kriesel]</a> , David Kriesel - creator of <a href="https://www.youtube.com/watch?v=-YpwsdRKt8Q">www.youtube.com/watch?v= YpwsdRKt8Q</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Christopher_Wylie">Christopher Wylie - Wikipedia</a>, Christoper Wylie - Author of <a href="https://www.amazon.com/Mindf-Cambridge-Analytica-Break-America/dp/1984854631">Mindf*ck: Cambridge Analytica and the Plot to Break America: Wylie, Christopher: 9781984854636: Amazon.com: Books</a></li>
+      <li><a href="http://www.abbottanalytics.com/data-mining-consulting-services-about.php">About Abbott Analytics - Abbott Analytics: Data Mining Services in San Diego</a></li>
+      <li><a href="https://www.linkedin.com/in/mjaberry/">www.linkedin.com/in/mjaberry/</a></li>
+      <li><a href="https://www.tomdavenport.com/">Home - Tom Davenport</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=-YpwsdRKt8Q">www.youtube.com/watch?v= YpwsdRKt8Q</a>, Try to find a project like him and collect data over periods of time which you will analyze</li>
+      <li>Earn a bachelor’s degree in a field with an emphasis on statistical and analytical skills, such as math or computer science.
+        <h3 id="datasets">Datasets</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Collection of data.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1936 - First data set “Iris data set”</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Enigma</td>
+              <td>Data and intelligence on every small business](https://enigma.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.crunchbase.com/">Access to this page has been denied.</a></li>
+      <li><a href="https://foursquare.com/">Access to this page has been denied.</a></li>
+      <li><a href="https://www.betterdata.ai/">betterdata: AI Synthetic Data Generation</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Synthetic Data Generation</td>
+              <td>Datomize](https://www.datomize.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[AI Lab Project: Synthetic Data Generator</td>
+              <td>Microsoft AI](https://www.microsoft.com/en-us/ai/ai-lab-synthetic-data-showcase)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://ourworldindata.org/ukraine-war">War in Ukraine - Our World in Data</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Data Lab</td>
+              <td>World Resources Institute](https://www.wri.org/data/data-lab)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Datasets</td>
+              <td>ORNL](https://www.ornl.gov/group/multimodal-sensor-analytics/datasets)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[About Data Labs - Pew Research Center Methods</td>
+              <td>Pew Research Center](https://www.pewresearch.org/methods/about-data-labs/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/fei-fei-li-4541247/">www.linkedin.com/in/fei fei li 4541247/</a>, Fei-Fei Li - inventor of ImageNet</li>
+      <li><a href="http://yann.lecun.com/">Yann LeCun’s Home Page</a>, Yann LeCun co creator of the final MNIST</li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="http://netmob.org/"> NetMob 2019, 8-10 July Mathematical Institute, Oxford University, Oxford, UK</a>, Join a community</li>
+      <li><a href="https://github.com/awesomedata/awesome-public-datasets">GitHub - awesomedata/awesome-public-datasets: A topic-centric list of HQ open datasets.</a>, Play around with datasets</li>
+      <li>Create your own dataset and train a machine learning model on it (for example you with happy and sad face)</li>
+      <li><a href="https://unity.com/products/computer-vision">Unity Computer Vision | Unity</a>, Create your own synthetic data with Unity
+        <h3 id="data-mining">Data Mining</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Extracting and discovering patterns in large data sets.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1960s - Economists used terms like data fishing or data dredging to refer what they considered bad practice of analyzing data without an a-priori hypothesis.</li>
+      <li>1990 - Term data mining appeared in database community generally with positive connotations.</li>
+      <li>1996 - Usama Fayyad launched journal by Kluwer called Data Mining and Knowledge Discovery</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://www.wckdrzr.com/">WCKD RZR - Unlocking the potential of the world’s data</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[The New Era of Shopper Analytics</td>
+              <td>Dayta AI](https://www.dayta.ai/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://cannerdata.com/">Canner - Data Access Workflow Simplified.</a></li>
+      <li><a href="https://emergeiq.co/">EMERGEiQ – Data Science as a Service</a></li>
+      <li><a href="https://www.hoodieanalytics.com/">Real-time Cannabis Pricing &amp; Sales Analytics &amp; Intelligence - Hoodie Analytics</a></li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://sciences.ucf.edu/statistics/dms/data-mining-lab/">Data Mining Lab – DATA SCIENCE PROGRAM</a></li>
+      <li><a href="https://www.cs.utexas.edu/users/dml/">www.cs.utexas.edu/users/dml/</a></li>
+      <li><a href="http://dml.cs.byu.edu/">BYU Data Mining Lab</a></li>
+      <li><a href="http://web.cse.ohio-state.edu/dmrl/">Data Mining Research at The Ohio State University</a></li>
+      <li><a href="http://dml.cs.byu.edu/">BYU Data Mining Lab</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://www.dbs.ifi.lmu.de/cms/personen/professoren/kriegel/index.html">Hans-Peter Kriegel - Lehr- und Forschungseinheit für Datenbanksysteme - LMU Munich</a></li>
+      <li><a href="https://www.cs.cmu.edu/~christos/">Christos Faloutsos</a></li>
+      <li><a href="https://hanj.cs.illinois.edu/">Jiawei Han</a></li>
+      <li><a href="http://www.cs.cornell.edu/johannes/">Johannes Gehrke’s Homepage</a></li>
+      <li><a href="http://infolab.stanford.edu/people/hector.html">Hector Garcia-Molina</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Main Page</td>
+              <td>Data Mining and Machine Learning](https://dataminingbook.info/), Read</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Learning From Data (Introductory Machine Learning)</td>
+              <td>edX](https://www.edx.org/course/learning-from-data-introductory-machine-learning), Take courses</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Data Mining Gruppen in Deutschland</td>
+              <td>Meetup](https://www.meetup.com/de-DE/topics/data-mining/), Join groups</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[13 Interesting Data Mining Projects in 2022 (for Students)</td>
+              <td>FavTutor](https://favtutor.com/blogs/data-mining-projects), Projects</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li><a href="https://www.kdnuggets.com/faq/learning-data-mining-data-science.html">  Where to start with Data Mining and Data Science - KDnuggets</a>, Summary about how to get into data mining
+        <h2 id="education">Education</h2>
+        <h3 id="ml-hackathons">ML Hackathons</h3>
+      </li>
+    </ul>
+  </li>
+  <li>Description
+    <ul>
+      <li>People work in a sprint torwards a ML related problem to solve it.</li>
+    </ul>
+  </li>
+  <li>Ways for getting involved
+    <ul>
+      <li>Kaggle <a href="https://www.kaggle.com/competitions?aliasId=NDM5ufEfFerkmCKiY">Kaggle Competitions</a></li>
+      <li>CodaLab <a href="https://competitions.codalab.org/competitions/?aliasId=kHPmZBShJdQhAeEQr">CodaLab - Competitions</a></li>
+      <li>Datahack <a href="https://datahack.analyticsvidhya.com/?aliasId=hn5H93KZzZ25J2Wv8">DataHack : Biggest Data hackathon platform for Data Scientists</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Hackerearth [Programming Challenges, Coding competitions, and Hackathons</td>
+              <td>HackerEarth](https://www.hackerearth.com/de/challenges/?aliasId=eKfdmTv4AzpNA5Mkm)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Provide ML hackathon with physical participation
+        <h3 id="ai-learning">AI learning</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>The field tries to improve learning through using AI in for example intelligent tutoring systems, intelligent learning environments, adaptive hypertext systems, and computer supported collaborative learning systems.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>1980s - Designers transformed expert system design to develop systems which fullfil educational functions</li>
+      <li>1990s - Emergence of second generation experts systems</li>
+    </ul>
+  </li>
+  <li><strong>Companies</strong>
+    <ul>
+      <li><a href="https://www.knewton.com/">Knewton - Achievement Within Reach</a></li>
+      <li><a href="https://www.cognii.com/">Cognii - Artificial Intelligence for Education and Training</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Nuance - Conversational AI for Healthcare and Customer Engagement</td>
+              <td>Nuance](https://www.nuance.com/index.html)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Augmented Reality (AR)</td>
+              <td>Blippar](https://www.blippar.com/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[CENTURY</td>
+              <td>Online Learning</td>
+              <td>English, Maths and Science](https://www.century.tech/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[AI Research Initiative</td>
+              <td>Rafik Hariri Institute for Computing and Computational Science &amp; Engineering](https://www.bu.edu/hic/centers-initiatives-labs/air/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="http://ai4stem.org/">ai4stem</a></li>
+      <li><a href="https://raise.mit.edu/research.html">RAISE - research</a></li>
+      <li><a href="https://www.ets.org/research/ai-labs">ETS AI Labs: ETS R&amp;D</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Artificial Intelligence Laboratory</td>
+              <td>Eller College of Management](https://eller.arizona.edu/departments-research/centers-labs/artificial-intelligence)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Hsinchun Chen</td>
+              <td>Eller College of Management](https://eller.arizona.edu/people/hsinchun-chen)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Xiaoming Zhai, Ph.D.</td>
+              <td>Directory</td>
+              <td>College of Education](https://people.coe.uga.edu/xiaoming-zhai/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="http://cobweb.cs.uga.edu/~shengli/">Sheng Li’s Homepage</a></li>
+      <li><a href="https://www.linkedin.com/in/sahrishpanjwani/">www.linkedin.com/in/sahrishpanjwani/</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Mark W. Patton</td>
+              <td>Eller College of Management](https://eller.arizona.edu/people/mark-w-patton)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Artificial Intelligence in education</td>
+              <td>ISTE](https://www.iste.org/areas-of-focus/AI-in-education), Join a group</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Artificial Intelligence in Education: A Review</td>
+              <td>IEEE Journals &amp; Magazine</td>
+              <td>IEEE Xplore](https://ieeexplore.ieee.org/document/9069875), Read an review of AI in education</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://www.ets.org/research/internship-fellowship/">Internship and Fellowship Programs: ETS R&amp;D</a>, Internship, Fellowship</li>
+    </ul>
+  </li>
+  <li><strong>Comments</strong>
+    <ul>
+      <li><a href="http://edutechwiki.unige.ch/en/Artificial_intelligence_and_education#:~:text=Cited%20with%20footnotes-,1%20Definition,intelligence%20research%2C%20learning%20and%20education.">Artificial intelligence and education - EduTech Wiki</a>
+        <h3 id="progress-studies">Progress studies</h3>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Description</strong>
+    <ul>
+      <li>Is the study of the causes of civilizational progress.</li>
+    </ul>
+  </li>
+  <li><strong>History</strong>
+    <ul>
+      <li>2019 - Coining of term progress studies</li>
+    </ul>
+  </li>
+  <li><strong>Labs</strong>
+    <ul>
+      <li><a href="https://plos.org/">Home - PLOS</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Center for Urban Science and Progress</td>
+              <td>NYU Tandon School of Engineering](https://engineering.nyu.edu/research-innovation/centers/center-urban-science-and-progress)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li><a href="https://astera.org/agi/">AGI – Astera</a></li>
+      <li><a href="https://newscience.org/">New Science</a></li>
+    </ul>
+  </li>
+  <li><strong>People</strong>
+    <ul>
+      <li><a href="https://jasoncrawford.org/">Jason Crawford</a></li>
+      <li><a href="https://patrickcollison.com/">Home · Patrick Collison</a></li>
+      <li><a href="https://marginalrevolution.com/">Marginal REVOLUTION - Small Steps Toward A Much Better World</a></li>
+      <li><a href="https://twitter.com/krisgulati">twitter.com/krisgulati</a></li>
+      <li><a href="https://twitter.com/jedmccaleb?lang=en">twitter.com/jedmccaleb?lang=en</a></li>
+    </ul>
+  </li>
+  <li><strong>Ways for getting involved</strong>
+    <ul>
+      <li><a href="https://progressstudi.es/">Progress Studies – A blog about the causes and consequences of Progress, Economic Growth, Technological Change, and Innovation</a>, Help</li>
+      <li><a href="https://progressstudies.school/">Progress Studies for Aspiring Young Scholars</a>, Join a program</li>
+      <li><a href="https://astera.org/agi/">AGI – Astera</a>, Join a AGI progress team</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><category term="fastpages" /><category term="jupyter" /><summary type="html"><![CDATA[A mindmap to universal learning machine.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://neuralbits.ai/neuralbits.ai/images/some_folder/your_image.png" /><media:content medium="image" url="https://neuralbits.ai/neuralbits.ai/images/some_folder/your_image.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://neuralbits.ai/neuralbits.ai/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://neuralbits.ai/neuralbits.ai/jupyter/2020/02/20/test</id><content type="html" xml:base="https://neuralbits.ai/neuralbits.ai/jupyter/2020/02/20/test.html"><![CDATA[<!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -1010,123 +3332,4 @@ And another {% fn 2 %}
 </div>
 </div>
 </div>
-</div>]]></content><author><name></name></author><category term="jupyter" /><summary type="html"><![CDATA[A tutorial of fastpages for Jupyter notebooks.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://openblog-projects.github.io/openblog.ai/images/chart-preview.png" /><media:content medium="image" url="https://openblog-projects.github.io/openblog.ai/images/chart-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">An Example Markdown Post</title><link href="https://openblog-projects.github.io/openblog.ai/markdown/2020/01/14/test-markdown-post.html" rel="alternate" type="text/html" title="An Example Markdown Post" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>https://openblog-projects.github.io/openblog.ai/markdown/2020/01/14/test-markdown-post</id><content type="html" xml:base="https://openblog-projects.github.io/openblog.ai/markdown/2020/01/14/test-markdown-post.html"><![CDATA[<h1 id="example-markdown-post">Example Markdown Post</h1>
-
-<h2 id="basic-setup">Basic setup</h2>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-filename.md</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">filename</code> is whatever file name you choose, to remind yourself what this post is about. <code class="language-plaintext highlighter-rouge">.md</code> is the file extension for markdown files.</p>
-
-<p>The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “<em>level 1 heading</em>” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line <code class="language-plaintext highlighter-rouge">## File names</code> above.</p>
-
-<h2 id="basic-formatting">Basic formatting</h2>
-
-<p>You can use <em>italics</em>, <strong>bold</strong>, <code class="language-plaintext highlighter-rouge">code font text</code>, and create <a href="https://www.markdownguide.org/cheat-sheet/">links</a>. Here’s a footnote <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. Here’s a horizontal rule:</p>
-
-<hr />
-
-<h2 id="lists">Lists</h2>
-
-<p>Here’s a list:</p>
-
-<ul>
-  <li>item 1</li>
-  <li>item 2</li>
-</ul>
-
-<p>And a numbered list:</p>
-
-<ol>
-  <li>item 1</li>
-  <li>item 2</li>
-</ol>
-
-<h2 id="boxes-and-stuff">Boxes and stuff</h2>
-
-<blockquote>
-  <p>This is a quotation</p>
-</blockquote>
-
-<div class="Toast Toast--warning googoo">
-   <span class="Toast-icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg></span>
-   <span class="Toast-content">You can include alert boxes</span>
-</div>
-
-<p>…and…</p>
-
-<div class="Toast">
-   <span class="Toast-icon"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg></span>
-   <span class="Toast-content">You can include info boxes</span>
-</div>
-
-<h2 id="images">Images</h2>
-
-<p><img src="/openblog.ai/images/logo.png" alt="" title="fast.ai's logo" /></p>
-
-<h2 id="code">Code</h2>
-
-<p>You can format text and code per usual</p>
-
-<p>General preformatted text:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Do a thing
-do_thing()
-</code></pre></div></div>
-
-<p>Python code and output:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Prints '2'
-</span><span class="k">print</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2
-</code></pre></div></div>
-
-<p>Formatting text as shell commands:</p>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"hello world"</span>
-./some_script.sh <span class="nt">--option</span> <span class="s2">"value"</span>
-wget https://example.com/cat_photo1.png
-</code></pre></div></div>
-
-<p>Formatting text as YAML:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">key</span><span class="pi">:</span> <span class="s">value</span>
-<span class="pi">-</span> <span class="na">another_key</span><span class="pi">:</span> <span class="s2">"</span><span class="s">another</span><span class="nv"> </span><span class="s">value"</span>
-</code></pre></div></div>
-
-<h2 id="tables">Tables</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>A thing</td>
-      <td>Another thing</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="tweetcards">Tweetcards</h2>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Altair 4.0 is released! <a href="https://t.co/PCyrIOTcvv">https://t.co/PCyrIOTcvv</a><br />Try it with:<br /><br />  pip install -U altair<br /><br />The full list of changes is at <a href="https://t.co/roXmzcsT58">https://t.co/roXmzcsT58</a> ...read on for some highlights. <a href="https://t.co/vWJ0ZveKbZ">pic.twitter.com/vWJ0ZveKbZ</a></p>&mdash; Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw">December 11, 2019</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
-<h2 id="footnotes">Footnotes</h2>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>This is the footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name></name></author><category term="markdown" /><summary type="html"><![CDATA[A minimal example of using markdown with fastpages.]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><category term="jupyter" /><summary type="html"><![CDATA[A tutorial of fastpages for Jupyter notebooks.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://neuralbits.ai/neuralbits.ai/images/chart-preview.png" /><media:content medium="image" url="https://neuralbits.ai/neuralbits.ai/images/chart-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
