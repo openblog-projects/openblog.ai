@@ -48,7 +48,7 @@ minima:
 
 
 
-title-logo: /images/openblog_logo_transparent.png
+#title-logo: /images/openblog_logo_transparent.png
 discord-logo: /images/discord_logo1.png
 github-logo: /images/github_logo.png
 email-logo: /images/email_logo.png
